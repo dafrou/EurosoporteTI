@@ -475,24 +475,25 @@ section.section {
 ============================= */
 
 #parallax1{	
-    background-image: url(../img/parallax/.jpg);
-    height:400px;
+    background-image: url(../img/testimonios/5.jpg);
+    height:300px;
 }
 #parallax2{	
-    background-image: url(../img/parallax/.jpg);
-    height:400px;
+    background-image: url(../img/testimonios/4.jpg);
+    height:300px;
 }
 #testimonials{	
     background-image: url(../img/testimonios/2.jpg);
-    height:400px;
+    height:300px;
+    color: black;
 }
 #testimonials-3{	
     background-image: url(../img/testimonios/1.jpg);
-    height:400px;
+    height:300px;
 }
 #testimonials-2{	
     background-image: url(../img/testimonios/3.jpg);
-    height:400px;
+    height:300px;
 }
 
 /*===========================
@@ -1426,7 +1427,11 @@ nav#filter a {
     font-size: 18px;
     font-family: Georgia, sans-serif;
     line-height: 1.5em;
-}	
+}
+
+#textoNegro{
+    color: black;
+}
 
 /*===========================
   --- Contact ----

@@ -49,7 +49,7 @@
                         <li><a href="#section-works">Portafolio</a></li>
                         <li><a href="#procedimientos">Procedimientos</a></li>
                         <li><a href="#">Comunicados</a></li>
-                        <li><a href="#">Preguntas</a></li>
+                        <li><a href="#Preguntas">Preguntas</a></li>
                         <li><a href="#section-contact">Contacto</a></li>
                     </ul>
                 </div><!--/.navbar-collapse -->
@@ -111,7 +111,7 @@
     </section>
 
     <!--about-->
-    <section><a name="nosotros"></a>
+    <section id="nosotros">
         <div class="container">
             <div class="about">
                 <div class="row mar-bot40">
@@ -315,7 +315,7 @@
                     <div class="align-center">
                         <div class="testimonial pad-top40 pad-bot40 clearfix">
                             <h5>
-                                
+
                             </h5>
                             <br/>
                             <span class="author">&mdash; Eurocorp / www.eurocorp.cl</span>
@@ -614,7 +614,7 @@
                 <div class="col-lg-12">
                     <div class="align-center">
                         <div class="testimonial pad-top40 pad-bot40 clearfix">
-                            <h5>
+                            <h5 id="textoNegro">
                                 Nunc velit risus, dapibus non interdum quis, suscipit nec dolor. Vivamus tempor tempus mauris vitae fermentum. In vitae nulla lacus. Sed sagittis tortor vel arcu sollicitudin nec tincidunt metus suscipit.Nunc velit risus, dapibus non interdum.
                             </h5>
                             <br/>
@@ -624,9 +624,7 @@
                     </div>
                 </div>
             </div>
-
         </div>	
-
     </section>
 
     <!-- section works -->
@@ -645,10 +643,10 @@
             <div class="row">
                 <nav id="filter" class="col-md-12 text-center">
                     <ul>
-                        <li><a href="#" class="current btn-theme btn-small" data-filter="*">Todos</a></li>
-                        <li><a href="#"  class="btn-theme btn-small" data-filter=".sitios" >Sitios web</a></li>
-                        <li><a href="#"  class="btn-theme btn-small" data-filter=".sistemas">Sistemas</a></li>
-                        <li ><a href="#" class="btn-theme btn-small" data-filter=".implementaciones">Implementaciones</a></li>
+                        <li><a href="#section-works" class="current btn-theme btn-small" data-filter="*">Todos</a></li>
+                        <li><a href="#section-works"  class="btn-theme btn-small" data-filter=".sitios" >Sitios web</a></li>
+                        <li><a href="#section-works"  class="btn-theme btn-small" data-filter=".sistemas">Sistemas</a></li>
+                        <li><a href="#section-works" class="btn-theme btn-small" data-filter=".implementaciones">Implementaciones</a></li>
                     </ul>
                 </nav>
                 <div class="col-md-12">
@@ -826,8 +824,8 @@
                 dignissim suscipit porta justo nisl amet Nunc quis semper.</p>
         </div>
     </section>
-<!--    procedimientos-->
-     <section id="procedimientos" class="section appear clearfix">
+    <!--    procedimientos-->
+    <section id="procedimientos" class="section appear clearfix">
         <div class="container">
 
             <div class="row mar-bot40">
@@ -842,16 +840,16 @@
             <div class="row">
                 <nav id="filter" class="col-md-12 text-center">
                     <ul>
-                        <li><a href="#" class="current btn-theme btn-small" data-filter="*">Todos</a></li>
-                        <li><a href="#"  class="btn-theme btn-small" data-filter=".ti" >TI</a></li>
-                        <li><a href="#"  class="btn-theme btn-small" data-filter=".eurocorp">Eurocorp</a></li>                     
+                        <li><a href="#procedimientos" class="current btn-theme btn-small" data-filter="*">Todos</a></li>
+                        <li><a href="#procedimientos"  class="btn-theme btn-small" data-filter=".Ti" >TI</a></li>
+                        <li><a href="#procedimientos"  class="btn-theme btn-small" data-filter=".Eurocorp">Eurocorp</a></li>                     
                     </ul>
                 </nav>
                 <div class="col-md-12">
                     <div class="row">
                         <div class="portfolio-items isotopeWrapper clearfix" id="3">
-                           
-                            <article class="col-md-4 isotopeItem eurocorp">
+
+                            <article class="col-md-4 isotopeItem Eurocorp">
                                 <div class="portfolio-item">
                                     <div class="wow bounceIn">
                                         <img src="img/procedimientos/payroll.jpg" alt="" />
@@ -859,12 +857,12 @@
                                     <div class="portfolio-desc align-center">
                                         <div class="folio-info">
                                             <h5><a href="img/procedimientos/payroll.jpg">Procedimiento de sistema payroll</a></h5>
-                                            <a href="documentos/PR-01 Procedimiento payroll.docx" download="Procedimiento sistema payroll" class="fancybox"><i class="fa fa-external-link fa-2x"></i></a>                                 
+                                            <a href="documentos/PR-01 Procedimiento payroll.docx" download="Procedimiento sistema payroll" class="fancybox"><i class="fa fa-download fa-2x"></i></a>                                 
                                         </div>										   
                                     </div>
                                 </div>
                             </article>
-                            <article class="col-md-4 isotopeItem ti">
+                            <article class="col-md-4 isotopeItem Ti">
                                 <div class="portfolio-item">
                                     <div class="wow rotateInDownRight">
                                         <img src="img/procedimientos/ofiCentral.jpg" alt="" />
@@ -872,46 +870,46 @@
                                     <div class="portfolio-desc align-center">
                                         <div class="folio-info">
                                             <h5><a href="img/procedimientos/ofiCentral.jpg">Procedimiento de Respaldo oficinas centrales</a></h5>
-                                            <a href="documentos/PR-02 Procedimiento de Respaldo oficinas centrales.docx" dowload="Respaldo oficinas centrales" class="fancybox"><i class="fa fa-external-link fa-2x"></i></a>
+                                            <a href="documentos/PR-02 Procedimiento de Respaldo oficinas centrales.docx" dowload="Respaldo oficinas centrales" class="fancybox"><i class="fa fa-download fa-2x"></i></a>
                                         </div>										   
                                     </div>
                                 </div>
                             </article>                          
-                            <article class="col-md-4 isotopeItem eurocorp">
+                            <article class="col-md-4 isotopeItem Eurocorp">
                                 <div class="portfolio-item">
                                     <div class="wow rotateInUpLeft">
-                                        <img src="img/procedimientos" alt="" />
+                                        <img src="img/procedimientos/soporte.jpg" alt="" />
                                     </div>	
                                     <div class="portfolio-desc align-center">
                                         <div class="folio-info">
-                                            <h5><a href="img/procedimientos">Procedimiento de solicitud de soporte</a></h5>
-                                            <a href="documentos/PR-03 Procedimiento de solicitud de soporte.docx" dowload="Procedimiento solicitud de soporte"  class="fancybox"><i class="fa fa-external-link fa-2x"></i></a>
+                                            <h5><a href="img/procedimientos/soporte.jpg">Procedimiento de solicitud de soporte</a></h5>
+                                            <a href="documentos/PR-03 Procedimiento de solicitud de soporte.docx" dowload="Procedimiento solicitud de soporte"  class="fancybox"><i class="fa fa-download fa-2x"></i></a>
                                         </div>										   
                                     </div>
                                 </div>
                             </article>
-                            <article class="col-md-4 isotopeItem ti">
+                            <article class="col-md-4 isotopeItem Ti">
                                 <div class="portfolio-item">
                                     <div class="wow bounceIn">
-                                        <img src="img/procedimientos/" alt="" />
+                                        <img src="img/procedimientos/ofiObras.jpg" alt="" />
                                     </div>
                                     <div class="portfolio-desc align-center">
                                         <div class="folio-info">
-                                            <h5><a href="#">Procedimiento de respaldo de información de obras</a></h5>
-                                            <a href="documentos/PR-04 Procedimiento respaldo de informacion en obras.docx" dowload="Respaldo de informacion en obras"  class="fancybox"><i class="fa fa-external-link fa-2x"></i></a>
+                                            <h5><a href="img/procedimientos/ofiObras.jpg">Procedimiento de respaldo de información de obras</a></h5>
+                                            <a href="documentos/PR-04 Procedimiento respaldo de informacion en obras.docx" dowload="Respaldo de informacion en obras"  class="fancybox"><i class="fa fa-download fa-2x"></i></a>
                                         </div>										   
                                     </div>
                                 </div>
                             </article>
-                            <article class="col-md-4 isotopeItem eurocorp">
+                            <article class="col-md-4 isotopeItem Eurocorp">
                                 <div class="portfolio-item">
                                     <div class="wow rotateInDownRight">
-                                        <img src="img/procedimientos/" alt="" />
+                                        <img src="img/procedimientos/desvi.jpg" alt="" />
                                     </div>		
                                     <div class="portfolio-desc align-center">
                                         <div class="folio-info">
-                                            <h5><a href="#">Procedimiento de desvinculación</a></h5>
-                                            <a href="documentos/PR-05 Procedimiento desvinculacion.docx" dowload="Procedimiento desvinculacion"   class="fancybox"><i class="fa fa-external-link fa-2x"></i></a>
+                                            <h5><a href="img/procedimientos/desvi.jpg">Procedimiento de desvinculación</a></h5>
+                                            <a href="documentos/PR-05 Procedimiento desvinculacion.docx" dowload="Procedimiento desvinculacion"   class="fancybox"><i class="fa fa-download fa-2x"></i></a>
                                         </div>										   
                                     </div>
                                 </div>
@@ -923,6 +921,64 @@
 
         </div>
     </section>
+
+    <section id="parallax1" class="section parallax" data-stellar-background-ratio="0.5">	
+        <div class="align-center pad-top40 pad-bot30">
+            <h4 class="color-white pad-top50">The middle of that asteroid field</h4>
+            <p class="color-white">We can repair any dings and scrapes to your spacecraft and support,Planning a time travel trip to the middle ages Feugiat accumsan Suspendisse eget Duis faucibus tempus pede pede augue pede.Dapibus mollis
+                dignissim suscipit porta justo nisl amet Nunc quis semper.</p>
+        </div>
+    </section>
+
+    <!--preguntas-->
+    <section id="Preguntas">
+        <div class="container">
+            <div class="row mar-bot40">
+                <div class="col-md-offset-3 col-md-6">
+                    <div class="section-header">
+                        <h2 class="section-heading animated" data-animation="bounceInUp">Preguntas Frecuentes</h2>
+                        <p></p>
+                    </div>
+                </div>
+                <br/>
+                <div class="col-md-12">
+                    <div class="service-col">
+                        <h3>COMO CAMBIO MI CLAVE DE CORREO</h3>
+                        <p>
+                            
+                            
+                        </p>
+                        
+                    </div>                   
+                </div>              
+            </div>           
+        </div>
+    </section>
+   
+
+    <!-- spacer section:testimonial -->
+    <section id="testimonials-3" class="section" data-stellar-background-ratio="0.5">
+        <div class="container">
+            <div class="row">				
+                <div class="col-lg-12">
+                    <div class="align-center">
+                        <div class="testimonial pad-top40 pad-bot40 clearfix">
+                            <h5>
+                                Nunc velit risus, dapibus non interdum quis, suscipit nec dolor. Vivamus tempor tempus mauris vitae fermentum. In vitae nulla lacus. Sed sagittis tortor vel arcu sollicitudin nec tincidunt metus suscipit.Nunc velit risus, dapibus non interdum.
+                            </h5>
+                            <br/>
+                            <span class="author">&mdash; Jouse Manuel <a href="#">www.jouse-manuel.com</a></span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>	
+
+    </section>
+
+
 
     <!-- contact -->
     <section id="section-contact" class="section appear clearfix">
@@ -979,7 +1035,7 @@
     <section id="footer" class="section footer">
         <div class="container">
             <div class="row align-center copyright">
-                <div class="col-sm-12"><p id="direccion">Av El Bosque Norte 0177, esquina San Sebastián</p></div>           
+                <div class="col-sm-12"><p id="direccion">Av El Bosque Norte 0177, esquina San Sebastián, piso 12.</p></div>           
             </div> 
         </div>
     </section>
