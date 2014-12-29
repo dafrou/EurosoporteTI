@@ -48,7 +48,7 @@
                         <li><a href="#team">Equipo</a></li>                        
                         <li><a href="#section-works">Portafolio</a></li>
                         <li><a href="#procedimientos">Procedimientos</a></li>
-                        <li><a href="#">Comunicados</a></li>
+                        <li><a href="#comunicados">Comunicados</a></li>
                         <li><a href="#Preguntas">Preguntas</a></li>
                         <li><a href="#section-contact">Contacto</a></li>
                     </ul>
@@ -175,17 +175,17 @@
     <!--/about-->
 
     <!-- spacer section:testimonial -->
-    <section id="testimonials-3" class="section" data-stellar-background-ratio="0.5">
+    <section id="testimonials-5" class="section" data-stellar-background-ratio="0.5">
         <div class="container">
             <div class="row">				
                 <div class="col-lg-12">
                     <div class="align-center">
                         <div class="testimonial pad-top40 pad-bot40 clearfix">
                             <h5>
-                                Nunc velit risus, dapibus non interdum quis, suscipit nec dolor. Vivamus tempor tempus mauris vitae fermentum. In vitae nulla lacus. Sed sagittis tortor vel arcu sollicitudin nec tincidunt metus suscipit.Nunc velit risus, dapibus non interdum.
+                                
                             </h5>
                             <br/>
-                            <span class="author">&mdash; Jouse Manuel <a href="#">www.jouse-manuel.com</a></span>
+                            <span class="author"> <a href="#"></a></span>
                         </div>
 
                     </div>
@@ -318,7 +318,7 @@
 
                             </h5>
                             <br/>
-                            <span class="author">&mdash; Eurocorp / www.eurocorp.cl</span>
+                            <span class="author"></span>
                         </div>
 
                     </div>
@@ -615,10 +615,10 @@
                     <div class="align-center">
                         <div class="testimonial pad-top40 pad-bot40 clearfix">
                             <h5 id="textoNegro">
-                                Nunc velit risus, dapibus non interdum quis, suscipit nec dolor. Vivamus tempor tempus mauris vitae fermentum. In vitae nulla lacus. Sed sagittis tortor vel arcu sollicitudin nec tincidunt metus suscipit.Nunc velit risus, dapibus non interdum.
+                                
                             </h5>
                             <br/>
-                            <span class="author">&mdash; Jouse Manuel / www.jouse-manuel.com</span>
+                            <span class="author"></span>
                         </div>
 
                     </div>
@@ -819,9 +819,8 @@
     </section>
     <section id="parallax2" class="section parallax" data-stellar-background-ratio="0.5">	
         <div class="align-center pad-top40 pad-bot30">
-            <h4 class="color-white pad-top50">The middle of that asteroid field</h4>
-            <p class="color-white">We can repair any dings and scrapes to your spacecraft and support,Planning a time travel trip to the middle ages Feugiat accumsan Suspendisse eget Duis faucibus tempus pede pede augue pede.Dapibus mollis
-                dignissim suscipit porta justo nisl amet Nunc quis semper.</p>
+            <h4 class="color-white pad-top50"></h4>
+            <p class="color-white"></p>
         </div>
     </section>
     <!--    procedimientos-->
@@ -840,7 +839,7 @@
             <div class="row">
                 <nav id="filter" class="col-md-12 text-center">
                     <ul>
-                        <li><a href="#procedimientos" class="current btn-theme btn-small" data-filter="*">Todos</a></li>
+                        <li><a href="#procedimientos"  class="current btn-theme btn-small" data-filter="*">Todos</a></li>
                         <li><a href="#procedimientos"  class="btn-theme btn-small" data-filter=".Ti" >TI</a></li>
                         <li><a href="#procedimientos"  class="btn-theme btn-small" data-filter=".Eurocorp">Eurocorp</a></li>                     
                     </ul>
@@ -924,39 +923,73 @@
 
     <section id="parallax1" class="section parallax" data-stellar-background-ratio="0.5">	
         <div class="align-center pad-top40 pad-bot30">
-            <h4 class="color-white pad-top50">The middle of that asteroid field</h4>
-            <p class="color-white">We can repair any dings and scrapes to your spacecraft and support,Planning a time travel trip to the middle ages Feugiat accumsan Suspendisse eget Duis faucibus tempus pede pede augue pede.Dapibus mollis
-                dignissim suscipit porta justo nisl amet Nunc quis semper.</p>
+            <h4 class="color-white pad-top50"></h4>
+            <p class="color-white"></p>
         </div>
     </section>
 
-    <!--preguntas-->
-    <section id="Preguntas">
+    <section id="comunicados">
         <div class="container">
-            <div class="row mar-bot40">
-                <div class="col-md-offset-3 col-md-6">
-                    <div class="section-header">
-                        <h2 class="section-heading animated" data-animation="bounceInUp">Preguntas Frecuentes</h2>
-                        <p></p>
+            <div class="about">
+                <div class="row mar-bot40">
+                    <div class="col-md-offset-3 col-md-6">
+                        <div class="title">
+                            <div class="wow bounceIn">
+                                <h2 class="section-heading animated" data-animation="bounceInUp">COMUNICADOS</h2>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <br/>
-                <div class="col-md-12">
-                    <div class="service-col">
-                        <h3>COMO CAMBIO MI CLAVE DE CORREO</h3>
-                        <p>
-                            
-                            
-                        </p>
-                        
-                    </div>                   
-                </div>              
-            </div>           
+                <div class="row">
+
+                    <div class="row-slider">
+                        <div class="col-lg-2">
+
+                        </div>
+                        <div class="col-lg-8 mar-bot30">
+                            <div class="responsive-slider" data-spy="responsive-slider" data-autoplay="true">
+                                <div class="slides" data-group="slides">
+                                    <ul>
+                                        <div class="slide-body" data-group="slide">
+                                            <li><a href="img/comunicados/01.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/01.jpg" width="100%" height="100%"/></a></li>
+                                            <li><a href="img/comunicados/02.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/02.jpg" width="100%" height="100%"/></a></li>
+                                            <li><a href="img/comunicados/03.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/03.jpg" width="100%" height="100%"/></a></li>
+                                            <li><a href="img/comunicados/04.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/04.jpg" width="100%" height="100%"/></a></li>
+                                            <li><a href="img/comunicados/05.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/05.jpg" width="100%" height="100%"/></a></li>
+                                            <li><a href="img/comunicados/06.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/06.jpg" width="100%" height="100%"/></a></li>
+                                            <li><a href="img/comunicados/07.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/07.jpg" width="100%" height="100%"/></a></li>
+                                            <li><a href="img/comunicados/08.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/08.jpg" width="100%" height="100%"/></a></li>
+                                            <li><a href="img/comunicados/09.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/09.jpg" width="100%" height="100%"/></a></li>
+                                            <li><a href="img/comunicados/10.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/10.jpg" width="100%" height="100%"/></a></li>
+                                            <li><a href="img/comunicados/11.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/11.jpg" width="100%" height="100%"/></a></li>
+                                            <li><a href="img/comunicados/12.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/12.jpg" width="100%" height="100%"/></a></li>
+                                            <li><a href="img/comunicados/13.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/13.jpg" width="100%" height="100%"/></a></li>
+                                            <li><a href="img/comunicados/14.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/14.jpg" width="100%" height="100%"/></a></li>
+                                            <li><a href="img/comunicados/15.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/15.jpg" width="100%" height="100%"/></a></li>
+                                            <li><a href="img/comunicados/16.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/16.jpg" width="100%" height="100%"/></a></li>
+                                            <li><a href="img/comunicados/17.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/17.jpg" width="100%" height="100%"/></a></li>
+                                            <li><a href="img/comunicados/18.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/18.jpg" width="100%" height="100%"/></a></li>
+                                            <li><a href="img/comunicados/19.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/19.jpg" width="100%" height="100%"/></a></li>
+                                            <li><a href="img/comunicados/20.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/20.jpg" width="100%" height="100%"/></a></li>
+                                            <li><a href="img/comunicados/21.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/21.jpg" width="100%" height="100%"/></a></li>
+                                            <li><a href="img/comunicados/22.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/22.jpg" width="100%" height="100%"/></a></li>
+                                        </div>
+                                    </ul>
+                                    <a class="slider-control left" href="#" data-jump="prev"><i class="fa fa-angle-left fa-2x"></i></a>
+                                    <a class="slider-control right" href="#" data-jump="next"><i class="fa fa-angle-right fa-2x"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
     </section>
-   
-
-    <!-- spacer section:testimonial -->
     <section id="testimonials-3" class="section" data-stellar-background-ratio="0.5">
         <div class="container">
             <div class="row">				
@@ -964,10 +997,10 @@
                     <div class="align-center">
                         <div class="testimonial pad-top40 pad-bot40 clearfix">
                             <h5>
-                                Nunc velit risus, dapibus non interdum quis, suscipit nec dolor. Vivamus tempor tempus mauris vitae fermentum. In vitae nulla lacus. Sed sagittis tortor vel arcu sollicitudin nec tincidunt metus suscipit.Nunc velit risus, dapibus non interdum.
+                                
                             </h5>
                             <br/>
-                            <span class="author">&mdash; Jouse Manuel <a href="#">www.jouse-manuel.com</a></span>
+                            <span class="author"> <a href="#"></a></span>
                         </div>
 
                     </div>
@@ -977,8 +1010,91 @@
         </div>	
 
     </section>
+    <!--preguntas-->
+    <section id="Preguntas">
+        <div class="container">
+            <div class="about">
+                <div class="row mar-bot40">
+                    <div class="col-md-offset-3 col-md-6">
+                        <div class="title">
+                            <div class="wow bounceIn">
+                                <h2 class="section-heading animated" data-animation="bounceInUp">PREGUNTAS FRECUENTES</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-lg-6 ">
+                        <div class="company mar-left10">
+                            <h5>Cambio de contraseña de correo</h5>
+                            <P>1-Para realizar el cambio de contraseña, el usuario debe ingresar a su cuenta de 
+                                correo con sus credenciales entregadas por el departamento de RRHH, en la 
+                                siguiente URL:  mail.eurocorp.cl </P>
+                            <br/>              
+                            <p>2- Una vez dentro de la plataforma nos dirigimos al lado derecho de la pantalla 
+                                sobre el icono <i class="fa fa-cog fa-1x"></i> y seleccionamos configuracion de office 365.</p> 
+                            <br/>                           
+                            <p>3- Al Ingresar a esta nueva pantalla, pinchamos la opción Cambiar la contraseña.</p>
+                            <br/>
+                            <p>4- Para finalizar, debemos ingresar nuestra contraseña actual, la cual fue entregada 
+                                en primera instancia por el departamento de RRHH en el cuadro superior, e ingresar 
+                                nuestra nueva contraseña en los siguientes 2 cuadros. 
+                                Recordar que nuestra nueva contraseña tiene que tener como mínimo 3 de los siguientes 
+                                caracteres; Mayúsculas, minúsculas, números y signos.
+                            </p>
+                            <h6>Recordar que al modificar la contraseña esta tiene que ser ingresada nuevamente en todos los dispositivos que utilicen correo electrónico corporativo</h6>
+                        </div>       
+                    </div>
+                    <div class="row-slider">
+                        <div class="col-lg-6 mar-bot30">
+                            <div class="responsive-slider" data-spy="responsive-slider" data-autoplay="true">
+                                <div class="slides" data-group="slides">
+                                    <ul>
+                                        <div class="slide-body folio-info" data-group="slide">
+                                            <li><a href="img/preguntas/paso1.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/preguntas/paso1.jpg" width="100%" height="100%"/></a></li>
+                                            <li><a href="img/preguntas/paso2.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/preguntas/paso2.jpg" width="100%" height="100%"/></a></li>
+                                            <li><a href="img/preguntas/paso3.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/preguntas/paso3.jpg" width="100%" height="100%"/></a></li>
+                                            <li><a href="img/preguntas/paso4.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/preguntas/paso4.jpg" width="100%" height="100%"/></a></li>
+                                        </div>
+                                    </ul>
+                                    <a class="slider-control left" href="#" data-jump="prev"><i class="fa fa-angle-left fa-2x"></i></a>
+                                    <a class="slider-control right" href="#" data-jump="next"><i class="fa fa-angle-right fa-2x"></i></a>
+                                    <h6 style="color: #F29A25;">haga click sobre la imagen para ver detalle</h6>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>	
+                </div>
+
+            </div>
+
+        </div>
+    </section>
 
 
+    <!-- spacer section:testimonial -->
+    <section id="testimonials-4" class="section" data-stellar-background-ratio="0.5">
+        <div class="container">
+            <div class="row">				
+                <div class="col-lg-12">
+                    <div class="align-center">
+                        <div class="testimonial pad-top40 pad-bot40 clearfix">
+                            <h5>
+                               
+                            </h5>
+                            <br/>
+                            <span class="author"> <a href="#"></a></span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>	
+
+    </section>
 
     <!-- contact -->
     <section id="section-contact" class="section appear clearfix">
