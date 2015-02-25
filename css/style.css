@@ -20,14 +20,16 @@ body {
     text-shadow: none;
 }
 
+
+
 #copyRight{
-    
+
     color: #F29A25;
     font-size: 19px; 
 }
 
 #direccion{
-    
+
     color: #F29A25;
     font-size: 25px; 
     margin-top: -30px;
@@ -476,33 +478,41 @@ section.section {
 
 #parallax1{	
     background-image: url(../img/testimonios/5.jpg);
-    height:300px;
+    height:200px;
+    border: 2px darkorange solid;
 }
 #parallax2{	
     background-image: url(../img/testimonios/4.jpg);
-    height:300px;
+    height:200px;
+    border: 2px darkorange solid;
 }
 #testimonials{	
     background-image: url(../img/testimonios/2.jpg);
-    height:300px;
-    color: black;
+    height:200px;
+    border: 2px darkorange solid;
+
 }
 #testimonials-3{	
     background-image: url(../img/testimonios/1.jpg);
-    height:300px;
+    height:200px;
+    border: 2px darkorange solid;
 }
 #testimonials-2{	
     background-image: url(../img/testimonios/3.jpg);
-    height:300px;
+    height:200px;
+    border: 2px darkorange solid;
 }
 #testimonials-4{	
     background-image: url(../img/testimonios/6.jpg);
-    height:300px;
+    height:200px;
+    border: 2px darkorange solid;
 }
 #testimonials-5{	
     background-image: url(../img/testimonios/7.jpg);
-    height:300px;
+    height:200px;
+    border: 2px darkorange solid;
 }
+
 
 /*===========================
         ---Pricing---
@@ -1138,7 +1148,7 @@ About
 .team-member .profile-picture .profile-overlay {
     height: 94%;
     width: 94%;
-    background-color: #CB6749;;
+    background-color: inherit;
     position: absolute;
     top: 3%;
     left: 3%;
@@ -1577,6 +1587,7 @@ div.cform-response-output {
 section#footer {
     background: #242424;
     margin: 0;
+    border-top: 2px solid darkorange;
 }
 
 section#footer .copyright {

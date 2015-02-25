@@ -26,19 +26,14 @@
 </head>
 
 <body>
-
-
     <div class="header">
         <section id="header">
-
             <div class="navbar navbar-fixed-top" role="navigation" data-0="line-height:100px; height:100px; background-color:rgba(0,0,0,0.3);" data-300="line-height:60px; height:60px; background-color:rgba(0,0,0,1);">
-
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="fa fa-bars color-white"></span>
                     </button>
-                    <h1><a class="navbar-brand" href="index.php" data-0="line-height:90px;" data-300="line-height:50px;">EUROSOPORTE 
-                        </a></h1>
+                    <h1><a class="navbar-brand" href="index.php" data-0="line-height:90px;" data-300="line-height:50px;">EUROSOPORTE</a></h1>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav" data-0="margin-top:20px;" data-300="margin-top:5px;">
@@ -54,12 +49,8 @@
                     </ul>
                 </div><!--/.navbar-collapse -->
             </div>
-
-
         </section>
     </div>
-
-
     <section class="featured">
         <div id="index">
             <!-- Responsive slider - START -->
@@ -71,8 +62,8 @@
                                 <img src="img/carrusel/8.jpg" alt="">
                                 <div class="caption header" data-animate="slideAppearUpToDown" data-delay="500" data-length="300">
                                     <h2>Lideramos tecnologías</h2>
-                                    <div class="caption-sub" data-animate="slideAppearDownToUp" data-delay="1200" data-length="300"><h4><span>Ofreciendoles las ultimas tecnologias informaticas</span></h4></div>
-                                    <div class="caption-sub" data-animate="slideAppearLeftToRight" data-delay="800" data-length="300"><h3>Acesorate por nosotros y disfruta lo ultimo en tecnologia</h3></div>
+                                    <div class="caption-sub" data-animate="slideAppearDownToUp" data-delay="800" data-length="300"><h4><span>Acesorate por nosotros y disfruta lo ultimo en tecnología</span></h4></div>
+                                    <div class="caption-sub" data-animate="slideAppearLeftToRight" data-delay="1200" data-length="300"><h3>Te ofrecemos las ultimas tecnologias en servicios informaticos</h3></div>
                                 </div>
                             </div>
                         </li>
@@ -82,7 +73,7 @@
                                 <div class="caption header" data-animate="slideAppearDownToUp" data-delay="500" data-length="300">
                                     <h2>Todos nuestros servicios en un solo portal</h2>
                                     <div class="caption-sub" data-animate="slideAppearUpToDown" data-delay="800" data-length="300"><h4><span>A traves de nuestro nuevo sitio accede a todos nuestros servicios corporativos</span></h4></div>
-                                    <div class="caption-sub" data-animate="slideAppearRightToLeft" data-delay="1200" data-length="300"><h3>Mas facil, mas rapido y mas seguro</h3></div>
+                                    <div class="caption-sub" data-animate="slideAppearRightToLeft" data-delay="1200" data-length="300"><h3>Más facil, más rapido y más seguro</h3></div>
                                 </div>
                             </div>
                         </li>
@@ -91,25 +82,19 @@
                                 <img src="img/carrusel/6.jpg" alt="">
                                 <div class="caption header" data-animate="slideAppearUpToDown" data-delay="500" data-length="300">
                                     <h2>Un equipo multidisciplinario a tu disposición </h2>
-                                    <div class="caption-sub" data-animate="slideAppearLeftToRight" data-delay="800" data-length="300"><h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4></div>
-                                    <div class="caption-sub" data-animate="slideAppearDownToUp" data-delay="1200" data-length="300"><h3><span>New style Slides!</span></h3></div>
-
+                                    <div class="caption-sub" data-animate="slideAppearLeftToRight" data-delay="800" data-length="300"><h4>Solicita nuestra ayuda a través del portal de soporte</h4></div>
+                                    <div class="caption-sub" data-animate="slideAppearDownToUp" data-delay="1200" data-length="300"><h3>Tendras una atención oportuna y personalizada</h3></div>
                                 </div>
                             </div>
                         </li>
-
                     </ul>
                 </div>
-
                 <a class="slider-control left" href="#" data-jump="prev"><i class="fa fa-angle-left fa-2x"></i></a>
                 <a class="slider-control right" href="#" data-jump="next"><i class="fa fa-angle-right fa-2x"></i></a>
-
-
             </div>
             <!-- Responsive slider - END -->
         </div>
     </section>
-
     <!--about-->
     <section id="nosotros">
         <div class="container">
@@ -124,7 +109,6 @@
                     </div>
                 </div>
                 <div class="row">
-
                     <div class="row-slider">
                         <div class="col-lg-6 mar-bot30">
                             <div class="responsive-slider" data-spy="responsive-slider" data-autoplay="true">
@@ -138,7 +122,6 @@
                                     </ul>
                                     <a class="slider-control left" href="#" data-jump="prev"><i class="fa fa-angle-left fa-2x"></i></a>
                                     <a class="slider-control right" href="#" data-jump="next"><i class="fa fa-angle-right fa-2x"></i></a>
-
                                 </div>
                             </div>
                         </div>
@@ -164,16 +147,12 @@
                                 </p>
                             </div>       
                         </div>
-
                     </div>	
                 </div>
-
             </div>
-
         </div>
     </section>
     <!--/about-->
-
     <!-- spacer section:testimonial -->
     <section id="testimonials-5" class="section" data-stellar-background-ratio="0.5">
         <div class="container">
@@ -187,13 +166,10 @@
                             <br/>
                             <span class="author"> <a href="#"></a></span>
                         </div>
-
                     </div>
                 </div>
             </div>
-
         </div>	
-
     </section>
 
     <!-- services -->
@@ -203,9 +179,8 @@
                 <div class="col-md-offset-3 col-md-6">
                     <div class="section-header">
                         <div class="wow bounceIn"data-animation-delay="7.8s">
-
-                            <h2 class="section-heading animated" >Nuestros portales</h2>    
-
+                            <h2 class="section-heading animated">Nuestros portales</h2>    
+                            <p>Accede a todos nuestro portales desde aqui, con un solo click</p>
                         </div>
                     </div>
                 </div>
@@ -218,7 +193,7 @@
                             <div class="wow rotateIn">
                                 <div class="service-col">
                                     <div class="service-icon">
-                                        <figure><i class="fa fa-gears"></i></figure>
+                                        <figure><a href="http://www.euroges.cl" target="_blank" ><i class="fa fa-gears"></i></a></figure>
                                     </div>
                                     <h2><a href="http://www.euroges.cl" target="_blank" >Acceso a Euroges</a></h2>
                                     <p>Accede a nuestra plataforma CRM, recuerda gestionar tus credenciales de acceso con tu respectiva jefatura</p>
@@ -227,7 +202,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="col-lg-4" >
                     <div class="align-center">
                         <div class="wow bounceIn">
@@ -235,7 +209,7 @@
                             <div class="wow rotateIn">
                                 <div class="service-col">	
                                     <div class="service-icon">
-                                        <figure><i class="fa fa-envelope"></i></figure>
+                                        <figure><a href="http://mail.eurocorp.cl" target="_blank"><i class="fa fa-envelope"></i></a></figure>
                                     </div>
                                     <h2><a href="http://mail.eurocorp.cl" target="_blank" >Mail corporativo</a></h2>
                                     <p> Accede a nuestra plataforma de correo corporativo, recuerda constantemente cambiar tu contraseña</p>
@@ -244,27 +218,25 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="col-lg-4" >
                     <div class="align-center">
                         <div class="wow bounceIn">
                             <div class="service-col">
                                 <div class="service-icon">
-                                    <figure><i class="fa fa-users"></i></figure>
+                                    <figure><a href="http://intranet.euroinmobiliaria.cl/intranet/login/"  target="_blank"><i class="fa fa-users"></i></a></figure>
                                 </div>
-                                <h2><a href="http://www.euroinmobiliaria.cl/intranet/"  target="_blank">Intranet</a></h2>
+                                <h2><a href="http://intranet.euroinmobiliaria.cl/intranet/login/"  target="_blank">Intranet</a></h2>
                                 <p>Accede a intranet corporativo, en este link encontraras información actualizada de nuestra organización.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-
                 <div class="col-lg-4" >
                     <div class="align-center">
                         <div class="wow bounceIn">
                             <div class="service-col">
                                 <div class="service-icon">
-                                    <figure><i class="fa fa-support"></i></figure>
+                                    <figure><a href="http://www.euroconstructora.cl:8080" target="_blank"><i class="fa fa-wrench"></i></a></figure>
                                 </div>
                                 <h2><a href="http://www.euroconstructora.cl:8080" target="_blank">Portal de Soporte</a></h2>
                                 <p>Accede a nuestro portal de soporte, en este podrás crear tus solicitudes de soporte técnico informático.</p>
@@ -272,13 +244,12 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="col-lg-4" >
                     <div class="align-center">
                         <div class="wow bounceIn">
                             <div class="service-col">
                                 <div class="service-icon">
-                                    <figure><i class="fa fa-mobile"></i></figure>
+                                    <figure><a href="http://www.euroconstructora.cl/Planfuncionario" target="_blank"><i class="fa fa-mobile"></i></a></figure>
                                 </div>
                                 <h2><a href="http://www.euroconstructora.cl/Planfuncionario" target="_blank">Plan Funcionario</a></h2>
                                 <p>Accede a nuestro portal plan funcionario, donde podrás acceder al detalle de tu plan telefónico contratado.</p>
@@ -286,13 +257,12 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="col-lg-4" >
                     <div class="align-center">
                         <div class="wow bounceIn">
                             <div class="service-col">
                                 <div class="service-icon">
-                                    <figure><i class="fa fa-male"></i></figure>
+                                    <figure><a href="http://www.euroconstructora.cl/Apnet" target="_blank"><i class="fa fa-male"></i></a></figure>
                                 </div>
                                 <h2><a href="http://www.euroconstructora.cl/Apnet" target="_blank">Mi Portal</a></h2>
                                 <p>Accede a Mi Portal, sitio creado para ser más eficiente la interacción entre los colaboradores y nuestra organización</p>
@@ -326,11 +296,9 @@
             </div>
         </div>	
     </section>
-
     <!-- team -->
     <section id="team" class="team-section appear clearfix">
         <div class="container">
-
             <div class="row mar-bot10">
                 <div class="col-md-offset-3 col-md-6">
                     <div class="section-header">
@@ -340,13 +308,12 @@
                     </div>
                 </div>
             </div>
-
             <div class="row align-center mar-bot45">
                 <div class="col-md-4">
                     <div class="wow bounceIn" data-animation-delay="4.8s">
                         <div class="team-member">
                             <div class="profile-picture">
-                                <figure><img src="img/equipo/.jpg" alt=""></figure>
+                                <figure><img src="img/equipo/" alt=""></figure>
                                 <div class="profile-overlay"></div>
                                 <div class="profile-social">
                                     <div class="icons-wrapper">
@@ -360,7 +327,8 @@
                             </div>
                             <div class="team-detail">
                                 <h4>Jorge Cruzat Fuentesilla</h4>
-                                <span>Gerente servicio corporativos</span>
+                                <span>Gerente <br/>
+                                    servicios corporativos</span>
                             </div>
                             <div class="team-bio">
                                 <p>E-mail: jcruzat@eurocorp.cl<br/>
@@ -370,11 +338,10 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-
                     <div class="wow bounceIn">
                         <div class="team-member">
                             <div class="profile-picture">
-                                <figure><img src="img/members1.jpg" alt=""></figure>
+                                <figure><img src="img/" alt=""></figure>
                                 <div class="profile-overlay"></div>
                                 <div class="profile-social">
                                     <div class="icons-wrapper">
@@ -388,7 +355,8 @@
                             </div>
                             <div class="team-detail">
                                 <h4>Richard Urzua Meneses</h4>
-                                <span>Sub gerente de TI</span>
+                                <span>Sub-Gerente <br/>
+                                    servicios corporativo</span>
                             </div>
                             <div class="team-bio">
                                 <p>E-mail: rurzua@eurocorp.cl<br/>
@@ -403,7 +371,7 @@
                     <div class="wow bounceIn">
                         <div class="team-member">
                             <div class="profile-picture">
-                                <figure><img src="img/members2.jpg" alt=""></figure>
+                                <figure><img src="img/equipo/" alt=""></figure>
                                 <div class="profile-overlay"></div>
                                 <div class="profile-social">
                                     <div class="icons-wrapper">
@@ -417,7 +385,8 @@
                             </div>
                             <div class="team-detail">
                                 <h4>Rodrigo Cofre Palacios</h4>
-                                <span>Supervisor de TI</span>
+                                <span>Supervisor <br/>
+                                    Departamento de Informatica</span>
                             </div>
                             <div class="team-bio">
                                 <p>E-mail: rcofre@eurocorp.cl<br/>
@@ -432,7 +401,7 @@
                     <div class="wow bounceIn">
                         <div class="team-member">
                             <div class="profile-picture">
-                                <figure><img src="img/members2.jpg" alt=""></figure>
+                                <figure><img src="img/" alt=""></figure>
                                 <div class="profile-overlay"></div>
                                 <div class="profile-social">
                                     <div class="icons-wrapper">
@@ -446,7 +415,7 @@
                             </div>
                             <div class="team-detail">
                                 <h4>Felipe Navarrete Reyes</h4>
-                                <span>Soporte Informático</span>
+                                <span>Soporte <br/>Informático</span>
                             </div>
                             <div class="team-bio">
                                 <p>E-mail: fnavarrete@eurocorp.cl<br/>
@@ -461,7 +430,7 @@
                     <div class="wow bounceIn">
                         <div class="team-member">
                             <div class="profile-picture">
-                                <figure><img src="img/members2.jpg" alt=""></figure>
+                                <figure><img src="img/" alt=""></figure>
                                 <div class="profile-overlay"></div>
                                 <div class="profile-social">
                                     <div class="icons-wrapper">
@@ -475,7 +444,7 @@
                             </div>
                             <div class="team-detail">
                                 <h4>Christián Meza Hernandez</h4>
-                                <span>Soporte Informático</span>
+                                <span>Analista <br/>Informático</span>
                             </div>
                             <div class="team-bio">
                                 <p>E-mail: cmeza@eurocorp.cl<br/>
@@ -490,7 +459,7 @@
                     <div class="wow bounceIn">
                         <div class="team-member">
                             <div class="profile-picture">
-                                <figure><img src="img/members2.jpg" alt=""></figure>
+                                <figure><img src="img/" alt=""></figure>
                                 <div class="profile-overlay"></div>
                                 <div class="profile-social">
                                     <div class="icons-wrapper">
@@ -504,7 +473,7 @@
                             </div>
                             <div class="team-detail">
                                 <h4>Marcelo Garcia Olivares</h4>
-                                <span>Soporte Informático</span>
+                                <span>Soporte <br/>Informático</span>
                             </div>
                             <div class="team-bio">
                                 <p>E-mail: mgarcia@eurocorp.cl<br/>
@@ -519,7 +488,7 @@
                     <div class="wow bounceIn">
                         <div class="team-member">
                             <div class="profile-picture">
-                                <figure><img src="img/members2.jpg" alt=""></figure>
+                                <figure><img src="img/" alt=""></figure>
                                 <div class="profile-overlay"></div>
                                 <div class="profile-social">
                                     <div class="icons-wrapper">
@@ -533,7 +502,7 @@
                             </div>
                             <div class="team-detail">
                                 <h4>Rene Ilabaca Belisario</h4>
-                                <span>Soporte Informático</span>
+                                <span>Soporte <br/>Informático</span>
                             </div>
                             <div class="team-bio">
                                 <p>E-mail: rilabaca@eurocorp.cl<br/>
@@ -548,7 +517,7 @@
                     <div class="wow bounceIn">
                         <div class="team-member">
                             <div class="profile-picture">
-                                <figure><img src="img/members2.jpg" alt=""></figure>
+                                <figure><img src="img/" alt=""></figure>
                                 <div class="profile-overlay"></div>
                                 <div class="profile-social">
                                     <div class="icons-wrapper">
@@ -562,7 +531,7 @@
                             </div>
                             <div class="team-detail">
                                 <h4>Bryan Galleguillos López</h4>
-                                <span>Soporte Informático</span>
+                                <span>Soporte <br/>Informático</span>
                             </div>
                             <div class="team-bio">
                                 <p>E-mail: bgalleguillos@eurocorp.cl<br/>
@@ -577,7 +546,7 @@
                     <div class="wow bounceIn">
                         <div class="team-member">
                             <div class="profile-picture">
-                                <figure><img src="img/members2.jpg" alt=""></figure>
+                                <figure><img src="img/equipo/" alt=""></figure>
                                 <div class="profile-overlay"></div>
                                 <div class="profile-social">
                                     <div class="icons-wrapper">
@@ -591,7 +560,7 @@
                             </div>
                             <div class="team-detail">
                                 <h4>Jery Castillo Espinoza</h4>
-                                <span>Administrativo TI</span>
+                                <span>Administrativo <br/>Departamento de informatica</span>
                             </div>
                             <div class="team-bio">
                                 <p>E-mail: jcastillo@eurocorp.cl<br/>
@@ -635,7 +604,7 @@
                 <div class="col-md-offset-3 col-md-6">
                     <div class="section-header">
                         <h2 class="section-heading animated" data-animation="bounceInUp">Portafolio</h2>
-                        <p></p>
+                        <p>Visualiza nuestro portafolio de proyectos</p>
                     </div>
                 </div>
             </div>
@@ -644,8 +613,8 @@
                 <nav id="filter" class="col-md-12 text-center">
                     <ul>
                         <li><a href="#section-works" class="current btn-theme btn-small" data-filter="*">Todos</a></li>
-                        <li><a href="#section-works"  class="btn-theme btn-small" data-filter=".sitios" >Sitios web</a></li>
-                        <li><a href="#section-works"  class="btn-theme btn-small" data-filter=".sistemas">Sistemas</a></li>
+                        <li><a href="#section-works" class="btn-theme btn-small" data-filter=".sitios" >Sitios web</a></li>
+                        <li><a href="#section-works" class="btn-theme btn-small" data-filter=".sistemas">Sistemas</a></li>
                         <li><a href="#section-works" class="btn-theme btn-small" data-filter=".implementaciones">Implementaciones</a></li>
                     </ul>
                 </nav>
@@ -685,12 +654,12 @@
                             <article class="col-md-4 isotopeItem implementaciones">
                                 <div class="portfolio-item">
                                     <div class="wow rotateInDownRight">
-                                        <img src="img/portafolio/.jpg" alt="" />
+                                        <img src="img/portafolio/9.jpg" alt="" />
                                     </div>	
                                     <div class="portfolio-desc align-center">
                                         <div class="folio-info">
-                                            <h5><a href="img/portafolio/.jpg"></a></h5>
-                                            <a href="img/portafolio/.jpg" class="fancybox"><i class="fa fa-external-link fa-2x"></i></a>
+                                            <h5><a href="img/portafolio/9.jpg">AP Net</a></h5>
+                                            <a href="img/portafolio/9.jpg" class="fancybox"><i class="fa fa-external-link fa-2x"></i></a>
                                         </div>										   
                                     </div>
                                 </div>
@@ -723,21 +692,6 @@
                                     </div>
                                 </div>
                             </article>
-
-                            <article class="col-md-4 isotopeItem implementaciones">
-                                <div class="portfolio-item">
-                                    <div class="wow rotateInDownRight">
-                                        <img src="img/portafolio/" alt="" />
-                                    </div>		
-                                    <div class="portfolio-desc align-center">
-                                        <div class="folio-info">
-                                            <h5><a href="img/portafolio/"></a></h5>
-                                            <a href="img/portafolio/" class="fancybox"><i class="fa fa-external-link fa-2x"></i></a>
-                                        </div>										   
-                                    </div>
-                                </div>
-                            </article>
-
                             <article class="col-md-4 isotopeItem sitios">
                                 <div class="portfolio-item">
                                     <div class="wow rotateInUpLeft">
@@ -765,21 +719,6 @@
                                     </div>
                                 </div>
                             </article>
-
-                            <article class="col-md-4 isotopeItem implementaciones">
-                                <div class="portfolio-item">
-                                    <div class="wow rotateInDownRight">
-                                        <img src="img/portfolio/" alt="" />
-                                    </div>
-                                    <div class="portfolio-desc align-center">
-                                        <div class="folio-info">
-                                            <h5><a href="img/portfolio/">Project name 9</a></h5>
-                                            <a href="img/portfolio/" class="fancybox"><i class="fa fa-external-link fa-2x"></i></a>
-                                        </div>										   
-                                    </div>
-                                </div>
-                            </article>
-
                             <article class="col-md-4 isotopeItem sitios">
                                 <div class="portfolio-item">
                                     <div class="wow rotateInDownRight">
@@ -808,13 +747,9 @@
                                 </div>
                             </article>
                         </div>
-
                     </div>
-
-
                 </div>
             </div>
-
         </div>
     </section>
     <section id="parallax2" class="section parallax" data-stellar-background-ratio="0.5">	
@@ -831,7 +766,7 @@
                 <div class="col-md-offset-3 col-md-6">
                     <div class="section-header">
                         <h2 class="section-heading animated" data-animation="bounceInUp">Procedimientos</h2>
-                        <p></p>
+                        <p>En esta sección podras descargar nuestros procedimientos</p>
                     </div>
                 </div>
             </div>
@@ -951,28 +886,28 @@
                                 <div class="slides" data-group="slides">
                                     <ul>
                                         <div class="slide-body" data-group="slide">
-                                            <li><a href="img/comunicados/01.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/01.jpg" width="100%" height="100%"/></a></li>
-                                            <li><a href="img/comunicados/02.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/02.jpg" width="100%" height="100%"/></a></li>
-                                            <li><a href="img/comunicados/03.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/03.jpg" width="100%" height="100%"/></a></li>
-                                            <li><a href="img/comunicados/04.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/04.jpg" width="100%" height="100%"/></a></li>
-                                            <li><a href="img/comunicados/05.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/05.jpg" width="100%" height="100%"/></a></li>
-                                            <li><a href="img/comunicados/06.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/06.jpg" width="100%" height="100%"/></a></li>
-                                            <li><a href="img/comunicados/07.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/07.jpg" width="100%" height="100%"/></a></li>
-                                            <li><a href="img/comunicados/08.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/08.jpg" width="100%" height="100%"/></a></li>
-                                            <li><a href="img/comunicados/09.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/09.jpg" width="100%" height="100%"/></a></li>
-                                            <li><a href="img/comunicados/10.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/10.jpg" width="100%" height="100%"/></a></li>
-                                            <li><a href="img/comunicados/11.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/11.jpg" width="100%" height="100%"/></a></li>
-                                            <li><a href="img/comunicados/12.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/12.jpg" width="100%" height="100%"/></a></li>
-                                            <li><a href="img/comunicados/13.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/13.jpg" width="100%" height="100%"/></a></li>
-                                            <li><a href="img/comunicados/14.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/14.jpg" width="100%" height="100%"/></a></li>
-                                            <li><a href="img/comunicados/15.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/15.jpg" width="100%" height="100%"/></a></li>
-                                            <li><a href="img/comunicados/16.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/16.jpg" width="100%" height="100%"/></a></li>
-                                            <li><a href="img/comunicados/17.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/17.jpg" width="100%" height="100%"/></a></li>
-                                            <li><a href="img/comunicados/18.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/18.jpg" width="100%" height="100%"/></a></li>
-                                            <li><a href="img/comunicados/19.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/19.jpg" width="100%" height="100%"/></a></li>
-                                            <li><a href="img/comunicados/20.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/20.jpg" width="100%" height="100%"/></a></li>
-                                            <li><a href="img/comunicados/21.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/21.jpg" width="100%" height="100%"/></a></li>
-                                            <li><a href="img/comunicados/22.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/22.jpg" width="100%" height="100%"/></a></li>
+                                            <li><a href="img/comunicados/01.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/01.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>
+                                            <li><a href="img/comunicados/02.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/02.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>
+                                            <li><a href="img/comunicados/03.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/03.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>
+                                            <li><a href="img/comunicados/04.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/04.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>
+                                            <li><a href="img/comunicados/05.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/05.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>
+                                            <li><a href="img/comunicados/06.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/06.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>
+                                            <li><a href="img/comunicados/07.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/07.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>
+                                            <li><a href="img/comunicados/08.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/08.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>
+                                            <li><a href="img/comunicados/09.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/09.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>
+                                            <li><a href="img/comunicados/10.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/10.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>
+                                            <li><a href="img/comunicados/11.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/11.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>
+                                            <li><a href="img/comunicados/12.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/12.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>
+                                            <li><a href="img/comunicados/13.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/13.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>
+                                            <li><a href="img/comunicados/14.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/14.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>
+                                            <li><a href="img/comunicados/15.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/15.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>
+                                            <li><a href="img/comunicados/16.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/16.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>
+                                            <li><a href="img/comunicados/17.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/17.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>
+                                            <li><a href="img/comunicados/18.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/18.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>
+                                            <li><a href="img/comunicados/19.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/19.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>
+                                            <li><a href="img/comunicados/20.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/20.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>
+                                            <li><a href="img/comunicados/21.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/21.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>
+                                            <li><a href="img/comunicados/22.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/22.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>
                                         </div>
                                     </ul>
                                     <a class="slider-control left" href="#" data-jump="prev"><i class="fa fa-angle-left fa-2x"></i></a>
@@ -1163,12 +1098,8 @@
         <div class="container">
             <div class="row animated opacity mar-bot0" data-andown="fadeIn" data-animation="animation">
                 <div class="col-sm-12 align-center">
-                    <ul class="social-network social-circle">
-                        <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
-                        <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                    <ul>                    
+                        <img src="img/logos/logo.png" height="250" width="250">
                     </ul>				
                 </div>
             </div>
