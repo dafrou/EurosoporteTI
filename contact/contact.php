@@ -1,8 +1,10 @@
+ 
+
+
 <?php
-/*
-Credits: Bit Repository
-URL: http://www.bitrepository.com/
-*/
+
+
+
 
 include 'config.php';
 

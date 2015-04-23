@@ -2,8 +2,8 @@
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]
+[if gt IE 8]>      <html class="no-js"> <![endif]-->
 <head>
     <!-- BASICS -->
     <meta charset="utf-8">
@@ -21,6 +21,7 @@
     <link href="css/animate.css" rel="stylesheet" type="text/css"/>
     <link href="css/style.css" rel="stylesheet" type="text/css"/>
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+
     <!-- skin -->    
     <link href="skin/default.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -33,7 +34,9 @@
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="fa fa-bars color-white"></span>
                     </button>
-                    <h1><a class="navbar-brand" href="index.php" data-0="line-height:90px;" data-300="line-height:50px;">EUROSOPORTE</a></h1>
+                    <h1><a class="navbar-brand" href="index.php" data-0="line-height:90px;" data-300="line-height:50px;">                                       
+                            <img src="img/logos/logo.png" height="90" width="90">                       
+                        </a></h1>                 
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav" data-0="margin-top:20px;" data-300="margin-top:5px;">
@@ -45,6 +48,7 @@
                         <li><a href="#procedimientos">Procedimientos</a></li>
                         <li><a href="#comunicados">Comunicados</a></li>
                         <li><a href="#Preguntas">Preguntas</a></li>
+                        <li><a href="#indicadores">Indicadores</a></li>
                         <li><a href="#section-contact">Contacto</a></li>
                     </ul>
                 </div><!--/.navbar-collapse -->
@@ -59,31 +63,28 @@
                     <ul>
                         <li>
                             <div class="slide-body" data-group="slide">
-                                <img src="img/carrusel/8.jpg" alt="">
-                                <div class="caption header" data-animate="slideAppearUpToDown" data-delay="500" data-length="300">
-                                    <h2>Lideramos tecnologías</h2>
-                                    <div class="caption-sub" data-animate="slideAppearDownToUp" data-delay="800" data-length="300"><h4><span>Acesorate por nosotros y disfruta lo ultimo en tecnología</span></h4></div>
-                                    <div class="caption-sub" data-animate="slideAppearLeftToRight" data-delay="1200" data-length="300"><h3>Te ofrecemos las ultimas tecnologias en servicios informaticos</h3></div>
+                                <img src="img/carrusel/2.png" alt="">
+                                <div class="caption header text-left" data-animate="slideAppearUpToDown" data-delay="500" data-length="300">
+                                    <h2>EN NUESTRO EDIFICIO CORPORATIVO</h2>
+                                    <div class="caption-sub" data-animate="slideAppearLeftToRight" data-delay="800" data-length="300"><h3>NUEVAS TECNOLOGIAS DISPONIBLES PARA TI</h3></div>                             
                                 </div>
                             </div>
                         </li>
                         <li>
                             <div class="slide-body" data-group="slide">
-                                <img src="img/carrusel/2.jpg" alt="">
-                                <div class="caption header" data-animate="slideAppearDownToUp" data-delay="500" data-length="300">
-                                    <h2>Todos nuestros servicios en un solo portal</h2>
-                                    <div class="caption-sub" data-animate="slideAppearUpToDown" data-delay="800" data-length="300"><h4><span>A traves de nuestro nuevo sitio accede a todos nuestros servicios corporativos</span></h4></div>
-                                    <div class="caption-sub" data-animate="slideAppearRightToLeft" data-delay="1200" data-length="300"><h3>Más facil, más rapido y más seguro</h3></div>
+                                <img src="img/carrusel/4.jpg" alt="" >
+                                <div class="caption header text-left" data-animate="slideAppearDownToUp" data-delay="500" data-length="300">
+                                    <h2>TODOS NUESTROS SERVICIOS EN UN SOLO PORTAL</h2>
+                                    <div class="caption-sub" data-animate="slideAppearUpToDown" data-delay="800" data-length="300"><h3><span>ACCEDE A TODOS NUESTROS SERVICIOS CORPORATIVOS</span></h3></div>                                 
                                 </div>
                             </div>
                         </li>
                         <li>
                             <div class="slide-body" data-group="slide">
                                 <img src="img/carrusel/6.jpg" alt="">
-                                <div class="caption header" data-animate="slideAppearUpToDown" data-delay="500" data-length="300">
-                                    <h2>Un equipo multidisciplinario a tu disposición </h2>
-                                    <div class="caption-sub" data-animate="slideAppearLeftToRight" data-delay="800" data-length="300"><h4>Solicita nuestra ayuda a través del portal de soporte</h4></div>
-                                    <div class="caption-sub" data-animate="slideAppearDownToUp" data-delay="1200" data-length="300"><h3>Tendras una atención oportuna y personalizada</h3></div>
+                                <div class="caption header text-left" data-animate="slideAppearUpToDown" data-delay="500" data-length="300">
+                                    <h2>EQUIPO MULTIDICIPLINARIO</h2>
+                                    <div class="caption-sub" data-animate="slideAppearDownToUp" data-delay="800" data-length="300"><h3><span>ASESORATE POR NUESTRO GRUPO DE TECNICOS</span></h3></div>                                                              
                                 </div>
                             </div>
                         </li>
@@ -99,9 +100,13 @@
     <section id="nosotros">
         <div class="container">
             <div class="about">
-                <div class="row mar-bot40">
+                <div class="row mar-bot40">                   
                     <div class="col-md-offset-3 col-md-6">
-                        <div class="title">
+                        <div class="title"> 
+                            <div class="align-center">                                          
+                                <img src="img/logos/logo.png" height="90" width="90">                       
+                            </div>
+                            <BR>
                             <div class="wow bounceIn">
                                 <h2 class="section-heading animated" data-animation="bounceInUp">SOBRE NUESTRO DEPARTAMENTO</h2>
                             </div>
@@ -128,9 +133,9 @@
 
                         <div class="col-lg-6 ">
                             <div class="company mar-left10">
-                                <h4>Departamento de informática EUROCORP, es un equipo de trabajo que posee dos grandes objetivos, optimizar procesos 
+                                <h4 align="justify">Departamento de informática EUROCORP, es un equipo de trabajo que posee dos grandes objetivos, optimizar procesos 
                                     internos y dar soporte técnico a las unidades corporativas. </h4>
-                                <p>Para lograr nuestro primer objetivo contamos con un equipo capaz de realizar levantamientos de 
+                                <p align="justify">Para lograr nuestro primer objetivo contamos con un equipo capaz de realizar levantamientos de 
                                     información, análisis de procesos inteligentes, elección de tecnología adecuada y desarrollo óptimo,                         
                                     nuestro segundo objetivo es otorgar servicio de soporte, para ello contamos con un equipo de técnicos
                                     capaces de resolver cualquier dificultad computacional informática esto avalado por los conocimientos técnicos
@@ -143,7 +148,7 @@
                                     <br/>
                                     <br/>
                                     Nuestro nivel de servicio establecido permite tener un control de cada requerimiento de soporte
-                                    que se realice en nuestro sistema. logrando tener indicadores de gestion en line
+                                    que se realice en nuestro sistema. logrando tener indicadores de gestión en line
                                 </p>
                             </div>       
                         </div>
@@ -154,14 +159,14 @@
     </section>
     <!--/about-->
     <!-- spacer section:testimonial -->
-    <section id="testimonials-5" class="section" data-stellar-background-ratio="0.5">
+    <section id="parallax2" class="section" data-stellar-background-ratio="0.5">
         <div class="container">
             <div class="row">				
                 <div class="col-lg-12">
                     <div class="align-center">
                         <div class="testimonial pad-top40 pad-bot40 clearfix">
                             <h5>
-                                
+
                             </h5>
                             <br/>
                             <span class="author"> <a href="#"></a></span>
@@ -175,12 +180,15 @@
     <!-- services -->
     <section id="services" class="section pad-bot5 bg-white">
         <div class="container"> 
+            <div class="align-center">                                          
+                <img src="img/logos/logo.png" height="90" width="90">                       
+            </div>
             <div class="row mar-bot5">
                 <div class="col-md-offset-3 col-md-6">
                     <div class="section-header">
                         <div class="wow bounceIn"data-animation-delay="7.8s">
                             <h2 class="section-heading animated">Nuestros portales</h2>    
-                            <p>Accede a todos nuestro portales desde aqui, con un solo click</p>
+                            <p>Accede a todos nuestro portales desde aquí, con un solo click</p>
                         </div>
                     </div>
                 </div>
@@ -217,20 +225,7 @@
                             </div>	
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4" >
-                    <div class="align-center">
-                        <div class="wow bounceIn">
-                            <div class="service-col">
-                                <div class="service-icon">
-                                    <figure><a href="http://intranet.euroinmobiliaria.cl/intranet/login/"  target="_blank"><i class="fa fa-users"></i></a></figure>
-                                </div>
-                                <h2><a href="http://intranet.euroinmobiliaria.cl/intranet/login/"  target="_blank">Intranet</a></h2>
-                                <p>Accede a intranet corporativo, en este link encontraras información actualizada de nuestra organización.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                </div>               
                 <div class="col-lg-4" >
                     <div class="align-center">
                         <div class="wow bounceIn">
@@ -240,6 +235,19 @@
                                 </div>
                                 <h2><a href="http://www.euroconstructora.cl:8080" target="_blank">Portal de Soporte</a></h2>
                                 <p>Accede a nuestro portal de soporte, en este podrás crear tus solicitudes de soporte técnico informático.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="align-center">
+                        <div class="wow bounceIn">
+                            <div class="service-col">
+                                <div class="service-icon">
+                                    <figure><a href="http://intranet.euroinmobiliaria.cl/intranet/login/"  target="_blank"><i class="fa fa-users"></i></a></figure>
+                                </div>
+                                <h2><a href="http://intranet.euroinmobiliaria.cl/intranet/login/"  target="_blank">Intranet</a></h2>
+                                <p>Accede a intranet corporativo, en este link encontrarás información actualizada de nuestra organización.</p>
                             </div>
                         </div>
                     </div>
@@ -278,7 +286,7 @@
     <!--/services-->
 
     <!-- spacer section:testimonial -->
-    <section id="testimonials" class="section" data-stellar-background-ratio="0.5">
+    <section id="parallax2" class="section" data-stellar-background-ratio="0.5">
         <div class="container">
             <div class="row">				
                 <div class="col-lg-12">
@@ -299,11 +307,15 @@
     <!-- team -->
     <section id="team" class="team-section appear clearfix">
         <div class="container">
+            <div class="align-center">                                          
+                <img src="img/logos/logo.png" height="90" width="90">                       
+            </div>
             <div class="row mar-bot10">
                 <div class="col-md-offset-3 col-md-6">
                     <div class="section-header">
                         <div class="wow bounceIn">
-                            <h2 class="section-heading animated" data-animation="bounceInUp">NUESTRO EQUIPO</h2>                  
+                            <h2 class="section-heading animated" data-animation="bounceInUp">NUESTRO EQUIPO</h2>  
+                            <p>Conoce nuestro equipo multidiciplinario</p>
                         </div>
                     </div>
                 </div>
@@ -311,59 +323,47 @@
             <div class="row align-center mar-bot45">
                 <div class="col-md-4">
                     <div class="wow bounceIn" data-animation-delay="4.8s">
-                        <div class="team-member">
+                        <div class="team-member">   
                             <div class="profile-picture">
-                                <figure><img src="img/equipo/" alt=""></figure>
-                                <div class="profile-overlay"></div>
-                                <div class="profile-social">
-                                    <div class="icons-wrapper">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                                        <a href="#"><i class="fa fa-pinterest"></i></a>
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                    </div>
-                                </div>
+                                <figure><img src="img/equipo/jcruzat.jpg" alt=""></figure>
+                                <div class="profile-overlay"></div>                              
                             </div>
+                            <br>
+                            <br>
                             <div class="team-detail">
                                 <h4>Jorge Cruzat Fuentesilla</h4>
                                 <span>Gerente <br/>
                                     servicios corporativos</span>
-                            </div>
-                            <div class="team-bio">
                                 <p>E-mail: jcruzat@eurocorp.cl<br/>
                                     Fono: 02-23473700</p>
                             </div>
+                            <div class="team-bio">
+
+                            </div>
                         </div>
                     </div>
-                </div>
+                </div>                
                 <div class="col-md-4">
                     <div class="wow bounceIn">
                         <div class="team-member">
                             <div class="profile-picture">
-                                <figure><img src="img/" alt=""></figure>
-                                <div class="profile-overlay"></div>
-                                <div class="profile-social">
-                                    <div class="icons-wrapper">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                                        <a href="#"><i class="fa fa-pinterest"></i></a>
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                    </div>
-                                </div>
+                                <figure><img src="img/equipo/rur.jpg" alt=""></figure>
+                                <div class="profile-overlay"></div>                              
                             </div>
+                            <br>
+                            <br>
                             <div class="team-detail">
                                 <h4>Richard Urzua Meneses</h4>
-                                <span>Sub-Gerente <br/>
-                                    servicios corporativo</span>
-                            </div>
-                            <div class="team-bio">
+                                <span>Sub-Gerente TI<br/>
+                                    Servicios Corporativos</span>
                                 <p>E-mail: rurzua@eurocorp.cl<br/>
                                     Fono: 02-23473722<br/>
                                     Movil: 75392401
                                 </p>
                             </div>
+                            <div class="team-bio">
+
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -371,58 +371,48 @@
                     <div class="wow bounceIn">
                         <div class="team-member">
                             <div class="profile-picture">
-                                <figure><img src="img/equipo/" alt=""></figure>
-                                <div class="profile-overlay"></div>
-                                <div class="profile-social">
-                                    <div class="icons-wrapper">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                                        <a href="#"><i class="fa fa-pinterest"></i></a>
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                    </div>
-                                </div>
+                                <figure><img src="img/equipo/rcofre.jpg" alt=""></figure>
+                                <div class="profile-overlay"></div>                              
                             </div>
+                            <br>
+                            <br>
                             <div class="team-detail">
-                                <h4>Rodrigo Cofre Palacios</h4>
+                                <h4>Rodrigo Cofré Palacios</h4>
                                 <span>Supervisor <br/>
-                                    Departamento de Informatica</span>
-                            </div>
-                            <div class="team-bio">
+                                    Departamento de Informatica.
+                                    <br>el Bosque</span>
                                 <p>E-mail: rcofre@eurocorp.cl<br/>
                                     Fono: 02-23473722<br/>
                                     Movil: 69189092
                                 </p>
                             </div>
+                            <div class="team-bio">
+
+                            </div>
                         </div>
                     </div>
-                </div>             
+                </div>                
                 <div class="col-md-4">
                     <div class="wow bounceIn">
-                        <div class="team-member">
+                        <div class="team-member">  
                             <div class="profile-picture">
-                                <figure><img src="img/" alt=""></figure>
-                                <div class="profile-overlay"></div>
-                                <div class="profile-social">
-                                    <div class="icons-wrapper">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                                        <a href="#"><i class="fa fa-pinterest"></i></a>
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                    </div>
-                                </div>
+                                <figure><img src="img/equipo/fnavarrete.jpg" alt=""></figure>
+                                <div class="profile-overlay"></div>                              
                             </div>
+                            <br>
+                            <br>
                             <div class="team-detail">
                                 <h4>Felipe Navarrete Reyes</h4>
-                                <span>Soporte <br/>Informático</span>
-                            </div>
-                            <div class="team-bio">
+                                <span>Soporte <br/>Informático.
+                                    <br>el Bosque</span>
                                 <p>E-mail: fnavarrete@eurocorp.cl<br/>
                                     Fono: 02-23473722<br/>
                                     Movil: 83753365
                                 </p>
                             </div>
+                            <div class="team-bio">
+
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -430,28 +420,23 @@
                     <div class="wow bounceIn">
                         <div class="team-member">
                             <div class="profile-picture">
-                                <figure><img src="img/" alt=""></figure>
-                                <div class="profile-overlay"></div>
-                                <div class="profile-social">
-                                    <div class="icons-wrapper">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                                        <a href="#"><i class="fa fa-pinterest"></i></a>
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                    </div>
-                                </div>
+                                <figure><img src="img/equipo/cmeza.jpg" alt=""></figure>
+                                <div class="profile-overlay"></div>                              
                             </div>
+                            <br>
+                            <br>
                             <div class="team-detail">
                                 <h4>Christián Meza Hernandez</h4>
-                                <span>Analista <br/>Informático</span>
-                            </div>
-                            <div class="team-bio">
+                                <span>Analista <br/>Informático.
+                                    <br>el Bosque</span>
                                 <p>E-mail: cmeza@eurocorp.cl<br/>
                                     Fono: 02-23473722<br/>
                                     Movil: 75392374
                                 </p>
                             </div>
+                            <div class="team-bio">
+
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -459,28 +444,23 @@
                     <div class="wow bounceIn">
                         <div class="team-member">
                             <div class="profile-picture">
-                                <figure><img src="img/" alt=""></figure>
-                                <div class="profile-overlay"></div>
-                                <div class="profile-social">
-                                    <div class="icons-wrapper">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                                        <a href="#"><i class="fa fa-pinterest"></i></a>
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                    </div>
-                                </div>
+                                <figure><img src="img/equipo/mgarcia.jpg" alt=""></figure>
+                                <div class="profile-overlay"></div>                              
                             </div>
+                            <br>
+                            <br>
                             <div class="team-detail">
                                 <h4>Marcelo Garcia Olivares</h4>
-                                <span>Soporte <br/>Informático</span>
-                            </div>
-                            <div class="team-bio">
+                                <span>Soporte <br/>Informático.
+                                    <br>Monjitas</span>
                                 <p>E-mail: mgarcia@eurocorp.cl<br/>
                                     Fono: 02-26549119<br/>
                                     Movil: 57386234
                                 </p>
                             </div>
+                            <div class="team-bio">
+
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -488,28 +468,23 @@
                     <div class="wow bounceIn">
                         <div class="team-member">
                             <div class="profile-picture">
-                                <figure><img src="img/" alt=""></figure>
-                                <div class="profile-overlay"></div>
-                                <div class="profile-social">
-                                    <div class="icons-wrapper">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                                        <a href="#"><i class="fa fa-pinterest"></i></a>
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                    </div>
-                                </div>
+                                <figure><img src="img/equipo/rilabaca.jpg" alt=""></figure>
+                                <div class="profile-overlay"></div>                              
                             </div>
+                            <br>
+                            <br>
                             <div class="team-detail">
                                 <h4>Rene Ilabaca Belisario</h4>
-                                <span>Soporte <br/>Informático</span>
-                            </div>
-                            <div class="team-bio">
+                                <span>Soporte <br/>Informático. 
+                                    <br>Monjitas</span>
                                 <p>E-mail: rilabaca@eurocorp.cl<br/>
                                     Fono: 02-26549119<br/>
                                     Movil: 94376961
                                 </p>
                             </div>
+                            <div class="team-bio">
+
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -517,74 +492,63 @@
                     <div class="wow bounceIn">
                         <div class="team-member">
                             <div class="profile-picture">
-                                <figure><img src="img/" alt=""></figure>
-                                <div class="profile-overlay"></div>
-                                <div class="profile-social">
-                                    <div class="icons-wrapper">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                                        <a href="#"><i class="fa fa-pinterest"></i></a>
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                    </div>
-                                </div>
+                                <figure><img src="img/equipo/bgalle.jpg" alt=""></figure>
+                                <div class="profile-overlay"></div>                              
                             </div>
+                            <br>
+                            <br>
                             <div class="team-detail">
                                 <h4>Bryan Galleguillos López</h4>
-                                <span>Soporte <br/>Informático</span>
-                            </div>
-                            <div class="team-bio">
+                                <span>Soporte <br/>Informático.
+                                    <br>
+                                    Gran Marina</span>
                                 <p>E-mail: bgalleguillos@eurocorp.cl<br/>
                                     Fono: 51-2249477<br/>
                                     Movil: 93275930
                                 </p>
                             </div>
+                            <div class="team-bio">
+
+                            </div>
                         </div>
                     </div>
-                </div>
+                </div>       
                 <div class="col-md-4">
                     <div class="wow bounceIn">
                         <div class="team-member">
                             <div class="profile-picture">
-                                <figure><img src="img/equipo/" alt=""></figure>
-                                <div class="profile-overlay"></div>
-                                <div class="profile-social">
-                                    <div class="icons-wrapper">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                                        <a href="#"><i class="fa fa-pinterest"></i></a>
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                    </div>
-                                </div>
+                                <figure><img src="img/equipo/jcastillo.jpg" alt=""></figure>
+                                <div class="profile-overlay"></div>                              
                             </div>
+                            <br>
+                            <br>
                             <div class="team-detail">
                                 <h4>Jery Castillo Espinoza</h4>
-                                <span>Administrativo <br/>Departamento de informatica</span>
-                            </div>
-                            <div class="team-bio">
+                                <span>Administrativo <br/>Departamento de informática.
+                                    <br>
+                                    el Bosque</span>
                                 <p>E-mail: jcastillo@eurocorp.cl<br/>
                                     Fono: 02-23473756<br/>
                                 </p>
                             </div>
+                            <div class="team-bio">                              
+                            </div>
                         </div>
                     </div>
                 </div>
-
-            </div>
-
+            </div>          
         </div>
     </section>
     <!-- /team -->
     <!-- spacer section:testimonial -->
-    <section id="testimonials-2" class="section" data-stellar-background-ratio="0.5">
+    <section id="parallax2" class="section" data-stellar-background-ratio="0.5">
         <div class="container">
             <div class="row">				
                 <div class="col-lg-12">
                     <div class="align-center">
                         <div class="testimonial pad-top40 pad-bot40 clearfix">
                             <h5 id="textoNegro">
-                                
+
                             </h5>
                             <br/>
                             <span class="author"></span>
@@ -601,6 +565,9 @@
         <div class="container">
 
             <div class="row mar-bot40">
+                <div class="align-center">                                          
+                    <img src="img/logos/logo.png" height="90" width="90">                       
+                </div>
                 <div class="col-md-offset-3 col-md-6">
                     <div class="section-header">
                         <h2 class="section-heading animated" data-animation="bounceInUp">Portafolio</h2>
@@ -649,8 +616,6 @@
                                     </div>
                                 </div>
                             </article>
-
-
                             <article class="col-md-4 isotopeItem implementaciones">
                                 <div class="portfolio-item">
                                     <div class="wow rotateInDownRight">
@@ -761,102 +726,92 @@
     <!--    procedimientos-->
     <section id="procedimientos" class="section appear clearfix">
         <div class="container">
-
             <div class="row mar-bot40">
+                <div class="align-center">                                          
+                    <img src="img/logos/logo.png" height="90" width="90">                       
+                </div>
                 <div class="col-md-offset-3 col-md-6">
                     <div class="section-header">
                         <h2 class="section-heading animated" data-animation="bounceInUp">Procedimientos</h2>
-                        <p>En esta sección podras descargar nuestros procedimientos</p>
+                        <p>En esta sección podrás descargar nuestros procedimientos</p>
                     </div>
                 </div>
             </div>
-
             <div class="row">
-                <nav id="filter" class="col-md-12 text-center">
-                    <ul>
-                        <li><a href="#procedimientos"  class="current btn-theme btn-small" data-filter="*">Todos</a></li>
-                        <li><a href="#procedimientos"  class="btn-theme btn-small" data-filter=".Ti" >TI</a></li>
-                        <li><a href="#procedimientos"  class="btn-theme btn-small" data-filter=".Eurocorp">Eurocorp</a></li>                     
-                    </ul>
-                </nav>
-                <div class="col-md-12">
+                <div class="col-sm-12">                   
+                    <h3>Procedimientos Eurocorp.</h3>
+                    <br>
                     <div class="row">
-                        <div class="portfolio-items isotopeWrapper clearfix" id="3">
-
-                            <article class="col-md-4 isotopeItem Eurocorp">
-                                <div class="portfolio-item">
-                                    <div class="wow bounceIn">
-                                        <img src="img/procedimientos/payroll.jpg" alt="" />
-                                    </div>
-                                    <div class="portfolio-desc align-center">
-                                        <div class="folio-info">
-                                            <h5><a href="img/procedimientos/payroll.jpg">Procedimiento de sistema payroll</a></h5>
-                                            <a href="documentos/PR-01 Procedimiento payroll.docx" download="Procedimiento sistema payroll" class="fancybox"><i class="fa fa-download fa-2x"></i></a>                                 
-                                        </div>										   
-                                    </div>
-                                </div>
-                            </article>
-                            <article class="col-md-4 isotopeItem Ti">
-                                <div class="portfolio-item">
-                                    <div class="wow rotateInDownRight">
-                                        <img src="img/procedimientos/ofiCentral.jpg" alt="" />
-                                    </div>	
-                                    <div class="portfolio-desc align-center">
-                                        <div class="folio-info">
-                                            <h5><a href="img/procedimientos/ofiCentral.jpg">Procedimiento de Respaldo oficinas centrales</a></h5>
-                                            <a href="documentos/PR-02 Procedimiento de Respaldo oficinas centrales.docx" dowload="Respaldo oficinas centrales" class="fancybox"><i class="fa fa-download fa-2x"></i></a>
-                                        </div>										   
-                                    </div>
-                                </div>
-                            </article>                          
-                            <article class="col-md-4 isotopeItem Eurocorp">
-                                <div class="portfolio-item">
-                                    <div class="wow rotateInUpLeft">
-                                        <img src="img/procedimientos/soporte.jpg" alt="" />
-                                    </div>	
-                                    <div class="portfolio-desc align-center">
-                                        <div class="folio-info">
-                                            <h5><a href="img/procedimientos/soporte.jpg">Procedimiento de solicitud de soporte</a></h5>
-                                            <a href="documentos/PR-03 Procedimiento de solicitud de soporte.docx" dowload="Procedimiento solicitud de soporte"  class="fancybox"><i class="fa fa-download fa-2x"></i></a>
-                                        </div>										   
-                                    </div>
-                                </div>
-                            </article>
-                            <article class="col-md-4 isotopeItem Ti">
-                                <div class="portfolio-item">
-                                    <div class="wow bounceIn">
-                                        <img src="img/procedimientos/ofiObras.jpg" alt="" />
-                                    </div>
-                                    <div class="portfolio-desc align-center">
-                                        <div class="folio-info">
-                                            <h5><a href="img/procedimientos/ofiObras.jpg">Procedimiento de respaldo de información de obras</a></h5>
-                                            <a href="documentos/PR-04 Procedimiento respaldo de informacion en obras.docx" dowload="Respaldo de informacion en obras"  class="fancybox"><i class="fa fa-download fa-2x"></i></a>
-                                        </div>										   
-                                    </div>
-                                </div>
-                            </article>
-                            <article class="col-md-4 isotopeItem Eurocorp">
-                                <div class="portfolio-item">
-                                    <div class="wow rotateInDownRight">
-                                        <img src="img/procedimientos/desvi.jpg" alt="" />
-                                    </div>		
-                                    <div class="portfolio-desc align-center">
-                                        <div class="folio-info">
-                                            <h5><a href="img/procedimientos/desvi.jpg">Procedimiento de desvinculación</a></h5>
-                                            <a href="documentos/PR-05 Procedimiento desvinculacion.docx" dowload="Procedimiento desvinculacion"   class="fancybox"><i class="fa fa-download fa-2x"></i></a>
-                                        </div>										   
-                                    </div>
-                                </div>
-                            </article>                           
+                        <div class="col-xs-8 col-sm-11">
+                            <p>Procedimiento de instalación de sistema Payroll </p>                          
+                        </div>
+                        <div class="col-xs-4 col-sm-1">
+                            <a href="documentos/PR-01 Procedimiento payroll.docx" download="Procedimiento sistema payroll" class="fancybox"><i class="fa fa-download fa-2x"></i></a> 
                         </div>
                     </div>
-                </div>
+                    <br>                   
+                    <br>
+                    <div class="row">
+                        <div class="col-xs-8 col-sm-11">
+                            <p>Procedimiento de desvinculación</p>
+                        </div>
+                        <div class="col-xs-4 col-sm-1">
+                            <a href="documentos/PR-05 Procedimiento desvinculacion.docx" dowload="Procedimiento desvinculacion"   class="fancybox"><i class="fa fa-download fa-2x"></i></a>
+                        </div>
+                    </div>
+                    <br>                  
+                    <br>
+                    <div class="row">
+                        <div class="col-xs-8 col-sm-11">
+
+                            <p>Procedimiento de solicitud de soporte</p>
+                        </div>
+                        <div class="col-xs-4 col-sm-1">
+                            <a href="documentos/PR-03 Procedimiento de solicitud de soporte.docx" dowload="Procedimiento solicitud de soporte"  class="fancybox"><i class="fa fa-download fa-2x"></i></a>
+                        </div>
+                    </div>
+                    <br>                  
+                    <br>
+                    <div class="row">
+                        <div class="col-xs-8 col-sm-11">
+                            <p>Procedimiento de arriendo de equipamiento computacional</p>
+                        </div>
+                        <div class="col-xs-4 col-sm-1">
+                            <a href="documentos/PR-07 Procedimiento de adquisicion de equipamiento.docx" dowload="Arriendo de equipamiento"  class="fancybox"><i class="fa fa-download fa-2x"></i></a>
+                        </div>
+                    </div>
+                    <br>
+                    <hr style="background-color: orange; height: 1px;">
+                    <br> 
+                    <h3>Procedimientos TI Eurocorp</h3>
+                    <br>
+                    <div class="row">
+                        <div class="col-xs-8 col-sm-11">
+                            <p>Procedimiento de respaldo oficinas centrales</p>
+                        </div>
+                        <div class="col-xs-4 col-sm-1">
+                            <a href="documentos/PR-02 Procedimiento de Respaldo oficinas centrales.docx" dowload="Respaldo oficinas centrales" class="fancybox"><i class="fa fa-download fa-2x"></i></a>
+                        </div>
+                    </div>
+                    <br>                
+                    <br>                  
+                    <div class="row">
+                        <div class="col-xs-8 col-sm-11">
+                            <p>Procedimiento de respaldo de información de obras</p>
+                        </div>
+                        <div class="col-xs-4 col-sm-1">
+                            <a href="documentos/PR-04 Procedimiento respaldo de informacion en obras.docx" dowload="Respaldo de informacion en obras"  class="fancybox"><i class="fa fa-download fa-2x"></i></a>
+                        </div>
+                    </div>
+                    <br>                 
+                    <br>              
+                </div
             </div>
 
         </div>
     </section>
 
-    <section id="parallax1" class="section parallax" data-stellar-background-ratio="0.5">	
+    <section id="parallax2" class="section parallax" data-stellar-background-ratio="0.5">	
         <div class="align-center pad-top40 pad-bot30">
             <h4 class="color-white pad-top50"></h4>
             <p class="color-white"></p>
@@ -864,13 +819,20 @@
     </section>
 
     <section id="comunicados">
-        <div class="container">
+        <div class="container">         
             <div class="about">
-                <div class="row mar-bot40">
+                <div class="row mar-bot40">      
                     <div class="col-md-offset-3 col-md-6">
+                        <br>
+                        <br>
                         <div class="title">
+                            <div class="align-center">                                          
+                                <img src="img/logos/logo.png" height="90" width="90">                       
+                            </div>
+                            <BR>
                             <div class="wow bounceIn">
                                 <h2 class="section-heading animated" data-animation="bounceInUp">COMUNICADOS</h2>
+                                <p>Recuerda nuestros comunicados mas importantes</p>
                             </div>
                         </div>
                     </div>
@@ -886,28 +848,12 @@
                                 <div class="slides" data-group="slides">
                                     <ul>
                                         <div class="slide-body" data-group="slide">
-                                            <li><a href="img/comunicados/01.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/01.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>
-                                            <li><a href="img/comunicados/02.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/02.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>
-                                            <li><a href="img/comunicados/03.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/03.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>
-                                            <li><a href="img/comunicados/04.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/04.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>
-                                            <li><a href="img/comunicados/05.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/05.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>
-                                            <li><a href="img/comunicados/06.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/06.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>
-                                            <li><a href="img/comunicados/07.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/07.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>
-                                            <li><a href="img/comunicados/08.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/08.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>
-                                            <li><a href="img/comunicados/09.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/09.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>
-                                            <li><a href="img/comunicados/10.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/10.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>
-                                            <li><a href="img/comunicados/11.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/11.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>
-                                            <li><a href="img/comunicados/12.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/12.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>
-                                            <li><a href="img/comunicados/13.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/13.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>
-                                            <li><a href="img/comunicados/14.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/14.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>
-                                            <li><a href="img/comunicados/15.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/15.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>
-                                            <li><a href="img/comunicados/16.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/16.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>
-                                            <li><a href="img/comunicados/17.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/17.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>
-                                            <li><a href="img/comunicados/18.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/18.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>
+                                            <li><a href="img/comunicados/01.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/01.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>                                       
+                                            <li><a href="img/comunicados/05.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/05.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>                                           
+                                            <li><a href="img/comunicados/10.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/10.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>                                          
+                                            <li><a href="img/comunicados/12.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/12.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>                                           
                                             <li><a href="img/comunicados/19.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/19.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>
-                                            <li><a href="img/comunicados/20.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/20.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>
-                                            <li><a href="img/comunicados/21.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/21.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>
-                                            <li><a href="img/comunicados/22.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/22.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>
+                                            <li><a href="img/comunicados/20.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/comunicados/20.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>                                          
                                         </div>
                                     </ul>
                                     <a class="slider-control left" href="#" data-jump="prev"><i class="fa fa-angle-left fa-2x"></i></a>
@@ -925,14 +871,14 @@
             </div>
         </div>
     </section>
-    <section id="testimonials-3" class="section" data-stellar-background-ratio="0.5">
+    <section id="parallax2" class="section" data-stellar-background-ratio="0.5">
         <div class="container">
             <div class="row">				
                 <div class="col-lg-12">
                     <div class="align-center">
                         <div class="testimonial pad-top40 pad-bot40 clearfix">
                             <h5>
-                                
+
                             </h5>
                             <br/>
                             <span class="author"> <a href="#"></a></span>
@@ -951,7 +897,13 @@
             <div class="about">
                 <div class="row mar-bot40">
                     <div class="col-md-offset-3 col-md-6">
+                        <br>
+                        <br>
                         <div class="title">
+                            <div class="align-center">                                          
+                                <img src="img/logos/logo.png" height="90" width="90">                       
+                            </div>
+                            <BR>
                             <div class="wow bounceIn">
                                 <h2 class="section-heading animated" data-animation="bounceInUp">PREGUNTAS FRECUENTES</h2>
                             </div>
@@ -959,16 +911,15 @@
                     </div>
                 </div>
                 <div class="row">
-
                     <div class="col-lg-6 ">
                         <div class="company mar-left10">
-                            <h5>Cambio de contraseña de correo</h5>
+                            <h5><strong>CAMBIO DE CONTRASEÑA DE CORREO</strong></h5>
                             <P>1-Para realizar el cambio de contraseña, el usuario debe ingresar a su cuenta de 
                                 correo con sus credenciales entregadas por el departamento de RRHH, en la 
                                 siguiente URL:  mail.eurocorp.cl </P>
                             <br/>              
                             <p>2- Una vez dentro de la plataforma nos dirigimos al lado derecho de la pantalla 
-                                sobre el icono <i class="fa fa-cog fa-1x"></i> y seleccionamos configuracion de office 365.</p> 
+                                sobre el icono <i class="fa fa-cog fa-1x"></i> y seleccionamos configuración de office 365.</p> 
                             <br/>                           
                             <p>3- Al Ingresar a esta nueva pantalla, pinchamos la opción Cambiar la contraseña.</p>
                             <br/>
@@ -978,7 +929,8 @@
                                 Recordar que nuestra nueva contraseña tiene que tener como mínimo 3 de los siguientes 
                                 caracteres; Mayúsculas, minúsculas, números y signos.
                             </p>
-                            <h6>Recordar que al modificar la contraseña esta tiene que ser ingresada nuevamente en todos los dispositivos que utilicen correo electrónico corporativo</h6>
+                            <br>
+                            <h6><strong>Recordar que al modificar la contraseña esta tiene que ser ingresada nuevamente en todos los dispositivos que utilicen correo electrónico corporativo</strong></h6>
                         </div>       
                     </div>
                     <div class="row-slider">
@@ -999,167 +951,351 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>	
                 </div>
-
-            </div>
-
-        </div>
-    </section>
-
-
-    <!-- spacer section:testimonial -->
-    <section id="testimonials-4" class="section" data-stellar-background-ratio="0.5">
-        <div class="container">
-            <div class="row">				
-                <div class="col-lg-12">
-                    <div class="align-center">
-                        <div class="testimonial pad-top40 pad-bot40 clearfix">
-                            <h5>
-                               
-                            </h5>
-                            <br/>
-                            <span class="author"> <a href="#"></a></span>
+                <br>
+                <hr style="background-color: orange; height: 1px;">
+                <br>
+                <div class="row">
+                    <div class="row-slider">
+                        <div class="col-lg-6 mar-bot30">
+                            <div class="responsive-slider" >
+                                <div>            
+                                    <ul>
+                                        <div class="slide-body folio-info" >
+                                            <a href="img/preguntas/EuroArqui.png" class="fancybox"><img alt=""  src="img/preguntas/EuroArqui.png" width="60%" height="50%"/></a>
+                                        </div>
+                                    </ul>
+                                    <ul>
+                                        <div class="slide-body folio-info" >
+                                            <a href="img/preguntas/EuroConstru.png" class="fancybox"><img alt=""  src="img/preguntas/EuroConstru.png" width="60%" height="50%"/></a>
+                                        </div>
+                                    </ul>
+                                    <ul>
+                                        <div class="slide-body folio-info">
+                                            <a href="img/preguntas/EuroInmo.png" class="fancybox"><img alt=""  src="img/preguntas/EuroInmo.png" width="60%" height="50%"/></a>
+                                        </div>
+                                    </ul>                                   
+                                </div>
+                            </div>
                         </div>
-
+                        <div class="col-lg-6 ">
+                            <div class="company mar-left10">
+                                <h5><strong>SOLICITUD DE PLAN FUNCIONARIO</strong></h5>
+                                <P>1.-¿Cómo Adquirir un Plan Funcionario?</P>
+                                <p>
+                                    Para adquirir un Plan Funcionario debes cumplir los siguientes requisitos:
+                                    <br>
+                                    <br>
+                                    <span class="glyphicon glyphicon-minus"></span> Tener contrato Indefinido.
+                                    <br>                                 
+                                    <span class="glyphicon glyphicon-minus"></span> No tener registrado otro Plan funcionario.
+                                    <br>
+                                    <br>
+                                    Estos planes están sujeto a disponibilidad de stock. Para consultar disponibilidad contáctese 
+                                    con Jery Castillo al siguiente correo: jcastillo@eurocorp.cl o a través de nuestro <span><a href="#section-contact">formulario de contacto.</a></span>
+                                    <br>
+                                </p> 
+                                <br>
+                                <p>2.-¿Si tengo un plan funcionario y quiero bajar el servicio, que debo hacer?</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-minus"></span> Debes enviar un correo a jcastillo@eurocorp.cl e indicar el día en que se dará de baja el servicio.
+                                    <br> 
+                                    <span class="glyphicon glyphicon-minus"></span> El consumo se descontara finalizado el mes.  
+                                </p>
+                                <br>
+                                <p>3.-¿Puedo Portar la línea de plan funcionario a mi nombre?</P>
+                                <p>
+                                    Si, para esto debes hacer lo siguiente:                                   
+                                    <br>
+                                    <br>
+                                    <span class="glyphicon glyphicon-minus"></span> Solicitar una lista con planes de movistar, el cual se enviara a tu correo, debes elegir el más económico para poder realizar la portabilidad.
+                                    <br>                                    
+                                    <span class="glyphicon glyphicon-minus"></span> Debes llenar un formulario con tus datos, para que movistar emita boletas a tu nombre  por el consumo de la línea.
+                                    <br>  
+                                    <span class="glyphicon glyphicon-minus"></span> Una vez seleccionado el plan y completado el formulario con tus datos, se enviara esta solicitud a la ejecutiva, este proceso tiene un tiempo mínimo de 15 días.
+                                </p>
+                                <br>
+                                <p><strong>IMPORTANTE</strong></p>                                                         
+                                <p><span class="glyphicon glyphicon-asterisk"></span> No es obligación de la empresa otorgar planes a los usuarios, estos estarán disponibles según promociones ofrecidas por nuestro proveedor movistar.</p>     
+                                <p><span class="glyphicon glyphicon-asterisk"></span> No existe renovación de equipamiento en servicio plan funcionario.</p>
+                                <p><span class="glyphicon glyphicon-asterisk"></span> El consumo del plan funcionario se descuenta directamente en la liquidación de sueldo.</p>  
+                                <br>
+                                <p><strong>NOTA</strong></p>
+                                <P>No se puede portar la línea a un PRE PAGO, solamente planes, debido a políticas de movistar.</P>
+                            </div>       
+                        </div>
+                    </div>	
+                </div>
+                <br>
+                <hr style="background-color: orange; height: 1px;">
+                <br>
+                <div class="row">
+                    <div class="col-lg-6 ">
+                        <div class="company mar-left10">
+                            <h5><strong>EXTENSIÓN DE HORARIO DE TRABAJO.</strong></h5>
+                            <P>1- Solicitar autorización a su respectiva gerencia o subgerencia de área.</P>
+                            <br/>              
+                            <p>2- Crear ticket de soporte en nuestro portal de solicitudes. <strong>Ticket debe ser creado por gerencia o subgerencia</strong>. <span><a href="http://www.euroconstructora.cl:8080" target="_blank">www.euroconstructora.cl:8080</a></span></p> 
+                            <br/>                           
+                            <p>3- Una vez ingresado a nuestra plataforma, generar ticket de soporte, indicando días en los cuales se necesita la extensión de horario
+                                y horarios de esta extensión, tomando en consideracion lo siguiente:             
+                            </p>
+                            <p><span class="glyphicon glyphicon-asterisk"></span> Horario establecido para oficinas, de lunes a viernes de 08:00 hasta las 20:00 horas.</p>
+                            <p><span class="glyphicon glyphicon-asterisk"></span> Horario establecido para obras, de lunes a sabado de 08:00 hasta las 20:00 horas.</p>
+                            <p><span class="glyphicon glyphicon-asterisk"></span> Para salas de ventas, <strong>no aplica esta política.</strong></p>                          
+                            <p><strong>NOTA</strong></p>
+                            <P>El horario de soporte extraoridinario es el siguiente:</P>
+                            <p><span class="glyphicon glyphicon-asterisk"></span> Sábados y domingos de 11:00 hasta 19:00 horas</p>
+                            <p><span class="glyphicon glyphicon-asterisk"></span> Los encargados son: Rodrigo Cofre y Felipe Navarrete</p>                            
+                        </div>       
                     </div>
+                    <div class="row-slider">
+                        <div class="col-lg-6 mar-bot30">
+                            <div class="responsive-slider">
+                                <div class="slides">
+                                    <ul>
+                                        <div class="slide-body folio-info" data-group="slide">
+                                            <li><a href="img/preguntas/ExtensionHorario.jpg" class="fancybox"><img alt="" class="img-responsive" src="img/preguntas/ExtensionHorario.jpg" width="100%" height="100%"/></a></li>
+                                        </div>
+                                    </ul>                                 
+                                    <h6 style="color: #F29A25;">haga click sobre la imagen para ver detalle</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                  
+                </div>
+                <br>
+                <hr style="background-color: orange; height: 1px;">
+                <br> 
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- spacer section:testimonial -->
+<section id="parallax2" class="section" data-stellar-background-ratio="0.5">
+    <div class="container">
+        <div class="row">				
+            <div class="col-lg-12">
+                <div class="align-center">
+                    <div class="testimonial pad-top40 pad-bot40 clearfix">
+                        <h5>
+
+                        </h5>
+                        <br/>
+                        <span class="author"> <a href="#"></a></span>
+                    </div>
+
                 </div>
             </div>
+        </div>
 
-        </div>	
+    </div>	
+</section>
 
-    </section>
-
-    <!-- contact -->
-    <section id="section-contact" class="section appear clearfix">
-        <div class="container">
-
-            <div class="row mar-bot40">
+<section id="indicadores">
+    <div class="container">         
+        <div class="about">
+            <div class="row mar-bot40">      
                 <div class="col-md-offset-3 col-md-6">
-                    <div class="section-header">
-                        <h2 class="section-heading animated" data-animation="bounceInUp">Contactanos</h2>
-                        <p>Si deseas contactarnos, envianos tus inquetudes o consultas y nos contactaremos contigo</p>
+                    <br>
+                    <br>
+                    <div class="title">
+                        <div class="align-center">                                          
+                            <img src="img/logos/logo.png" height="90" width="90">                       
+                        </div>
+                        <BR>
+                        <div class="wow bounceIn">
+                            <h2 class="section-heading animated" data-animation="bounceInUp">INDICADORES DE GESTIÓN DE SERVICIO</h2>
+                            <p>Visualiza nuestros indicadores de gestión de servicio</p>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <div class="cform" id="contact-form">
-                        <div id="sendmessage">
-                            Tu mensaje ha sido enviado, muchas gracias!
-                        </div>
-                        <form action="contact/contact.php" method="post" role="form" class="contactForm">
-                            <div class="wow bounceIn">
-                                <div class="form-group">
-                                    <label for="name">Nombre</label>
-                                    <input type="text" name="name" class="form-control" id="name" placeholder="Tu Nombre" data-rule="maxlen:4" data-msg="Por favor ingrese su nombre" />
-                                    <div class="validation"></div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="email">Mail</label>
-                                    <input type="email" class="form-control" name="email" id="email" placeholder="Tu Correo" data-rule="email" data-msg="Por favor ingrese su mail" />
-                                    <div class="validation"></div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="subject">Asunto</label>
-                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" data-rule="maxlen:4" data-msg="Ingrese algún asunto" />
-                                    <div class="validation"></div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="message">Mensaje</label>
-                                    <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Ingrese su inquetud o solicitud"></textarea>
-                                    <div class="validation"></div>
-                                </div>
+
+                <div class="row-slider">
+                    <div class="col-lg-2">
+
+                    </div>
+                    <div class="col-lg-8 mar-bot30">
+                        <div class="responsive-slider" data-spy="responsive-slider" data-autoplay="true">
+                            <div class="slides">
+                                <ul>
+                                    <div class="slide-body" data-group="slide">
+                                        <li><a href="img/indicadores/kpi.jpg" width="100%" class="fancybox"><img alt="" class="img-responsive" src="img/indicadores/kpi.jpg" border="1px solid darkorange" width="98%" height="100%"/></a></li>                                       
+                                                                                                                                                      
+                                    </div>
+                                </ul>
+<!--                                <a class="slider-control left" href="#" data-jump="prev"><i class="fa fa-angle-left fa-2x"></i></a>
+                                <a class="slider-control right" href="#" data-jump="next"><i class="fa fa-angle-right fa-2x"></i></a>-->
                             </div>
-                            <button type="submit" class="line-btn green">Enviar</button>
-                        </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+
 
                     </div>
                 </div>
-                <!-- ./span12 -->
-            </div>
 
+            </div>
         </div>
-    </section>
-    <!-- map -->
-    <section id="footer" class="section footer">
-        <div class="container">
-            <div class="row align-center copyright">
-                <div class="col-sm-12"><p id="direccion">Av El Bosque Norte 0177, esquina San Sebastián, piso 12.</p></div>           
-            </div> 
-        </div>
-    </section>
-    <section id="section-map" class="clearfix">
-        <div id="map"> 
-        </div>
-    </section>
-    <section id="footer" class="section footer">
-        <div class="container">
-            <div class="row animated opacity mar-bot0" data-andown="fadeIn" data-animation="animation">
-                <div class="col-sm-12 align-center">
-                    <ul>                    
-                        <img src="img/logos/logo.png" height="250" width="250">
-                    </ul>				
+    </div>
+</section>
+<section id="parallax2" class="section" data-stellar-background-ratio="0.5">
+    <div class="container">
+        <div class="row">				
+            <div class="col-lg-12">
+                <div class="align-center">
+                    <div class="testimonial pad-top40 pad-bot40 clearfix">
+                        <h5>
+
+                        </h5>
+                        <br/>
+                        <span class="author"> <a href="#"></a></span>
+                    </div>
+
                 </div>
             </div>
+        </div>
 
-            <div class="row align-center copyright">
-                <div class="col-sm-12"><p id="copyRight">Copyright &copy; Informatica TI Eurocorp</p></div>           
+    </div>	
+</section>
+<!-- contact -->
+<section id="section-contact" class="section appear clearfix">
+    <div class="container">  
+        <div class="row mar-bot40">
+            <div class="align-center">                                          
+                <img src="img/logos/logo.png" height="90" width="90">                       
+            </div>
+            <div class="col-md-offset-3 col-md-6">
+                <div class="section-header">
+                    <h2 class="section-heading animated" data-animation="bounceInUp">Contactanos</h2>
+                    <p>Si deseas contactarnos, envianos tus inquietudes o consultas y nos contactaremos contigo</p>
+                </div>
             </div>
         </div>
-    </section>
-    <a href="#header" class="scrollup"><i class="fa fa-chevron-up"></i></a>	
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="cform" id="contact-form">
+                    <div id="sendmessage">
+                        Tu mensaje ha sido enviado, muchas gracias!
+                    </div>
+                    <form action="contact/contact.php" method="post" role="form" class="contactForm">
+                        <div class="wow bounceIn">
+                            <div class="form-group">
+                                <label for="name">Nombre</label>
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Tu Nombre" data-rule="maxlen:4" data-msg="Por favor ingrese su nombre" />
+                                <div class="validation"></div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Mail</label>
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Tu Correo" data-rule="email" data-msg="Por favor ingrese su mail" />
+                                <div class="validation"></div>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Asunto</label>
+                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" data-rule="maxlen:4" data-msg="Ingrese algún asunto" />
+                                <div class="validation"></div>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Mensaje</label>
+                                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Ingrese su inquetud o solicitud"></textarea>
+                                <div class="validation"></div>
+                            </div>
+                        </div>
+                        <button type="submit" class="line-btn green">Enviar</button>
+                    </form>
 
-    <script src="js/modernizr-2.6.2-respond-1.1.0.min.js" type="text/javascript"></script>
-    <script src="js/jquery.js" type="text/javascript"></script>
-    <script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
-    <script src="js/bootstrap.min.js" type="text/javascript"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&sensor=false"></script>
-    <script src="js/jquery.isotope.min.js" type="text/javascript"></script>
-    <script src="js/jquery.nicescroll.min.js" type="text/javascript"></script>
-    <script src="js/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
-    <script src="js/jquery.parallax-1.1.3.js" type="text/javascript"></script>
-    <script src="js/skrollr.min.js" type="text/javascript"></script>
-    <script src="js/jquery.scrollTo-1.4.3.1-min.js" type="text/javascript"></script>
-    <script src="js/jquery.localscroll-1.2.7-min.js" type="text/javascript"></script>
-    <script src="js/stellar.js" type="text/javascript"></script>
-    <script src="js/responsive-slider.js" type="text/javascript"></script>
-    <script src="js/jquery.appear.js" type="text/javascript"></script>
-    <script src="js/validate.js" type="text/javascript"></script>
-    <script src="js/grid.js" type="text/javascript"></script>
-    <script src="js/main.js" type="text/javascript"></script>
+                </div>
+            </div>
+            <!-- ./span12 -->
+        </div>
 
-    <script type="text/javascript">
+    </div>
+</section>
+<!-- map -->
+<section id="footer" class="section footer">
+    <div class="container">
+        <div class="row align-center copyright">
+            <div class="col-sm-12">
+                <p id="direccion">Av El Bosque Norte 0177, esquina San Sebastián, piso 12.</p>               
+            </div>           
+        </div> 
+    </div>
+</section>
+<section id="section-map" class="clearfix">
+    <div id="map"> 
+    </div>
+</section>
+<section id="footer" class="section footer">
+    <div class="container">
+        <div class="row animated opacity mar-bot0" data-andown="fadeIn" data-animation="animation">
+            <div class="col-sm-12 align-center">
+                <ul>                    
+                    <img src="img/logos/logo.png" height="250" width="250">
+                </ul>	               	
+            </div>
+        </div>
 
-        // When the window has finished loading create our google map below
-        google.maps.event.addDomListener(window, 'load', init);
+        <div class="row align-center copyright">
+            <div class="col-sm-12"><p id="copyRight">Copyright &copy; Informática TI Eurocorp</p></div>           
+        </div>
+    </div>
+</section>
+<a href="#header" class="scrollup"><i class="fa fa-chevron-up"></i></a>	
 
-        function init() {
-            // Basic options for a simple Google Map
-            // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
-            var mapOptions = {
-                // How zoomed in you want the map to start at (always required)
-                zoom: 17,
-                //
-                center: new google.maps.LatLng(-33.41530, -70.60107),
-                styles: [{featureType: "all", elementType: "all", stylers: [{invert_lightness: true}, {saturation: 10}, {lightness: 30}, {gamma: 0.5}, {hue: "#F29A25"}]}]
-            };
+<script src="js/modernizr-2.6.2-respond-1.1.0.min.js" type="text/javascript"></script>
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&sensor=false"></script>
+<script src="js/jquery.isotope.min.js" type="text/javascript"></script>
+<script src="js/jquery.nicescroll.min.js" type="text/javascript"></script>
+<script src="js/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+<script src="js/jquery.parallax-1.1.3.js" type="text/javascript"></script>
+<script src="js/skrollr.min.js" type="text/javascript"></script>
+<script src="js/jquery.scrollTo-1.4.3.1-min.js" type="text/javascript"></script>
+<script src="js/jquery.localscroll-1.2.7-min.js" type="text/javascript"></script>
+<script src="js/stellar.js" type="text/javascript"></script>
+<script src="js/responsive-slider.js" type="text/javascript"></script>
+<script src="js/jquery.appear.js" type="text/javascript"></script>
+<script src="js/validate.js" type="text/javascript"></script>
+<script src="js/grid.js" type="text/javascript"></script>
+<script src="js/main.js" type="text/javascript"></script>
 
-            // Get the HTML DOM element that will contain your map 
-            // We are using a div with id="map" seen below in the <body>
-            var mapElement = document.getElementById('map');
+<script type="text/javascript">
 
-            // Create the Google Map using out element and options defined above
-            var map = new google.maps.Map(mapElement, mapOptions);
-        }
-    </script>
-    <script src="js/wow.min.js"></script>
-    <script>
-        wow = new WOW(
-                {
-                })
-                .init();
-    </script>
+    // When the window has finished loading create our google map below
+    google.maps.event.addDomListener(window, 'load', init);
+
+    function init() {
+        // Basic options for a simple Google Map
+        // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+        var mapOptions = {
+            // How zoomed in you want the map to start at (always required)
+            zoom: 17,
+            //
+            center: new google.maps.LatLng(-33.41530, -70.60107),
+            styles: [{featureType: "all", elementType: "all", stylers: [{invert_lightness: true}, {saturation: 10}, {lightness: 30}, {gamma: 0.5}, {hue: "#F29A25"}]}]
+        };
+
+        // Get the HTML DOM element that will contain your map 
+        // We are using a div with id="map" seen below in the <body>
+        var mapElement = document.getElementById('map');
+
+        // Create the Google Map using out element and options defined above
+        var map = new google.maps.Map(mapElement, mapOptions);
+    }
+</script>
+<script src="js/wow.min.js"></script>
+<script>
+    wow = new WOW(
+            {
+            })
+            .init();
+</script>
 </body>
 </html>

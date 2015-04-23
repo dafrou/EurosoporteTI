@@ -1,4 +1,6 @@
 <?php
+
+
 // To
-define("WEBMASTER_EMAIL", 'cmeza@eurocorp.cl');
+define("WEBMASTER_EMAIL", 'soporte@euroges.cl');
 ?>
